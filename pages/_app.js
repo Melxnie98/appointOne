@@ -1,18 +1,18 @@
-import '@styles/globals.css'
-import FixedHeader from '@components/FixedHeader'
-import ScrollableHeader from '@components/ScrollableHeader';
-
+// pages/_app.js
+import '../styles/globals.css';
+import FixedHeader from '../components/FixedHeader';
+import ScrollableHeader from '../components/ScrollableHeader';
 
 function Application({ Component, pageProps }) {
   return (
     <div>
-      <FixedHeader />
+      <FixedHeader title="Fixed Header Title" />
       <div className="content">
         <Component {...pageProps} />
       </div>
-      <ScrollableHeader />
+      <ScrollableHeader title="Scrollable Header Title" />
     </div>
   );
 }
 
-export default Application
+export default Application;

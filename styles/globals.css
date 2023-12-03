@@ -9,6 +9,10 @@ body {
 * {
   box-sizing: border-box;
 }
+/* styles/globals.css */
+.content {
+  margin-top: 60px; /* Adjust this value based on your fixed header height */
+}
 
 main {
   padding: 5rem 0;
