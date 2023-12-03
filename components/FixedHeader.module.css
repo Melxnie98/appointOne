@@ -4,11 +4,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: #6D9340;
+    background-color: #ffffff;
+    color:  #6D9340;
     padding: 10px;
     z-index: 1;
     text-align: right;
+
   }
   
   .title {
