@@ -1,0 +1,11 @@
+/* styles/ScrollableHeader.module.css */
+.scrollableHeader {
+    position: relative;
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .title {
+    margin: 0;
+  }
