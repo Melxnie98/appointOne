@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import FixedHeader from '@components/FixedHeader'
 import Footer from '@components/Footer'
 import React from 'react';
 
