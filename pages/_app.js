@@ -11,10 +11,7 @@ function Application({ Component, pageProps }) {
       </div>
       <FixedHeader title="Fixed Header Title" />
       
-      
-      
-      
-      
+
       <div className="content">
         <Component {...pageProps} />
       </div>
