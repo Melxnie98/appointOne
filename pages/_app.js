@@ -7,10 +7,11 @@ function Application({ Component, pageProps }) {
   return (
     <div>
       <div>
-        <ScrollableHeader title="Scrollable Header Title" />
-        </div>
-      
       <FixedHeader title="Fixed Header Title" />
+      </div>
+      <ScrollableHeader title="Scrollable Header Title" />
+      
+      
       <div className="content">
         <Component {...pageProps} />
       </div>
