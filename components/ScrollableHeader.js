@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/ScrollableHeader.module.css';
+import styles from './ScrollableHeader.module.css';
 
 const ScrollableHeader = ({ title }) => {
   return (

@@ -1,6 +1,6 @@
 // components/FixedHeader.js
 import React from 'react';
-import styles from '../styles/FixedHeader.module.css';
+import styles from './FixedHeader.module.css';
 
 const FixedHeader = ({ title }) => {
   return (
