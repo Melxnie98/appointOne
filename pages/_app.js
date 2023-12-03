@@ -7,7 +7,7 @@ function Application({ Component, pageProps }) {
   return (
     <div>
       <div>
-      <ScrollableHeader title="Scrollable Header Title" />
+      <ScrollableHeader title="+353 (0)83 4400999" />
       </div>
       <FixedHeader title="Fixed Header Title" />
       
