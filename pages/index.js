@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome appoint ont!" />
+        <FixedHeader title="Welcome appoint ont!" />
         
         <p className="description">
           Get started by editing <code>pages/index.js</code>
