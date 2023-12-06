@@ -2,7 +2,7 @@
 .scrollableHeader {
     position: absolute;
     background-color: #ffffff;
-    color:#6D9340;
+    color:#000000;
     padding: 10px;
     width: 100%;
     z-index: 2; 
