@@ -19,7 +19,8 @@
   }
   
   .logo {
-    width: 50px; /* Adjust the size of the logo as needed */
+    width: 20%; /* Adjust the size of the logo as needed */
+    float:left
   }
   
   .navigation {
