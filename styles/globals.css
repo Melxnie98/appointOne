@@ -64,7 +64,7 @@ code {
   background-color:#6D9340;
   color: #ffffff;
   flex:1;
-  text-align: justify;
+  text-align: center;
 }
 .contentContainer{
   display: flex;
@@ -72,7 +72,7 @@ code {
   justify-content: center;
   align-items: center;
   flex:1;
-  text-align: justify;
+  text-align: center;
   
 }
 .overlay{
@@ -97,7 +97,7 @@ code {
   align-items: center;
   flex:1;
   padding: 5rem 0;
-  text-align: justify;
+  text-align:center;
 }
 .cardContainer{
   display: flex;
@@ -108,7 +108,7 @@ code {
 .round-button {
   background-color: white;
   border: 2px solid #333; /* Dark gray border */
-  border-radius: 15%; /* Makes the button round */
+  border-radius: 30%; /* Makes the button round */
   color: #333; /* Dark gray text color */
   padding: 10px 20px; /* Adjust padding as needed */
   font-size: 16px; /* Adjust font size as needed */
