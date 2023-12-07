@@ -25,7 +25,7 @@ export default function Home() {
           </div> 
         </div>
         <div className="cardContainer">
-        <div className="whyContainer">
+        <div className="overlay">
 
           
             <h1>Why Choose Appoint One</h1>
