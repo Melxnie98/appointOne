@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
+import ScrollableHeader from '@components/ScrollableHeader';
 
 const ContactPage = () => {
   return (
@@ -11,6 +12,7 @@ const ContactPage = () => {
       </Head>
 
       <main>
+      <ScrollableHeader />
 
         <p className="description">
           contact <code>pages/contact.js</code>

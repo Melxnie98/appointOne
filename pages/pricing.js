@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
+import ScrollableHeader from '@components/ScrollableHeader';
 
 const PricingPage = () => {
   return (
@@ -11,6 +12,7 @@ const PricingPage = () => {
       </Head>
 
       <main>
+      <ScrollableHeader />
 
         <p className="description">
           Pricing <code>pages/pricing.js</code>

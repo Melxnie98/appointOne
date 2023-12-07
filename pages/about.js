@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
+import ScrollableHeader from '@components/ScrollableHeader';
 
 const AboutPage = () => {
   return (
@@ -11,7 +12,7 @@ const AboutPage = () => {
       </Head>
 
       <main>
-        
+      <ScrollableHeader />
         <div className="cardContainer">
         <div className="overlay">
           <div className="fiftyContainer">

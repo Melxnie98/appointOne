@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
 import { useRouter } from 'next/router';
+import ScrollableHeader from '@components/ScrollableHeader';
 
 const ServicesPage = () => {
   return (
@@ -10,7 +11,9 @@ const ServicesPage = () => {
         <title>Services - Appoint one</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <main>
+      <ScrollableHeader />
       <div className="servicesContainer">
         <div className="overlay">
             <div className="fiftyContainer">
