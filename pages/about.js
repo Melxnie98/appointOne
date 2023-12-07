@@ -26,7 +26,7 @@ My interests lie in the outdoors kayaking, open water swimming and hillwalking. 
         
         </p>
       </main>
-      <Footer />
+     
     </div>
   );
 };

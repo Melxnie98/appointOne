@@ -16,7 +16,7 @@ const ContactPage = () => {
           contact <code>pages/contact.js</code>
         </p>
       </main>
-      <Footer />
+     
     </div>
   );
 };

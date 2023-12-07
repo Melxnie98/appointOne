@@ -16,7 +16,7 @@ const PricingPage = () => {
           Pricing <code>pages/pricing.js</code>
         </p>
       </main>
-      <Footer />
+      
     </div>
   );
 };
