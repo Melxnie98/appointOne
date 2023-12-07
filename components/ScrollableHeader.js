@@ -15,16 +15,13 @@ const ScrollableHeader = ({ title }) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
-
       const isScrollingUp = prevScrollPos > currentScrollPos;
 
-      setIsHeaderAtTop(isScrollingUp || currentScrollPos === 20);
-
+      setIsHeaderAtTop(isScrollingUp || currentScrollPos === 0);
       setPrevScrollPos(currentScrollPos);
     };
 
     if (typeof window !== 'undefined') {
-      // Ensure that the code runs only in the browser, not during server-side rendering
       window.addEventListener('scroll', handleScroll);
 
       return () => {
