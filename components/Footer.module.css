@@ -11,3 +11,11 @@
   height: 3em;
   margin: 5px;
 }
+.across {
+  display: flex;
+  float:right;
+  text-align: right;
+  align-items: flex-end;
+}
+
+
