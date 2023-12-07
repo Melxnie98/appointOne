@@ -3,6 +3,7 @@ import FixedHeader from '@components/FixedHeader'
 import Footer from '@components/Footer'
 import React from 'react';
 import { useRouter } from 'next/router';
+import ScrollableHeader from '@components/ScrollableHeader';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
+      <ScrollableHeader />
         <div className="greenContainer">
           <img src="/team.png" alt="Team"/>
           <div className="Container">
