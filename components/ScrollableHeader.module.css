@@ -42,5 +42,5 @@
    
   }
   .atTop {
-    transform: translateY(100%); /* Translate the header upwards by its height */
+    transform: translateY(170%); /* Translate the header upwards by its height */
   }
