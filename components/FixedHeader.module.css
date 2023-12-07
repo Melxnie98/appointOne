@@ -1,7 +1,6 @@
 /* styles/FixedHeader.module.css */
 .fixedHeader {
     position:relative;
-    top: 0;
     left: 0;
     width: 100%;
     background-color:#6D9340;

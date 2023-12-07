@@ -7,8 +7,9 @@ import Footer from '@components/Footer'
 function Application({ Component, pageProps }) {
   return (
     <div>
-      <FixedHeader title="+353 (0)83 4400999" />
       <ScrollableHeader />
+      <FixedHeader title="+353 (0)83 4400999" />
+      
       <div className="content">
         <Component {...pageProps} />
       </div>
