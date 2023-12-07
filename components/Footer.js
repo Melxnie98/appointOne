@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
+        <div>
+        <img src="/HeadImg.png" alt="Appoint One Logo" className={styles.logo} />
+        At Appoint One, we’re your partners in personal and professional growth. With compassion, integrity, and empathy as our cornerstones, we guide you through career complexities, resolve challenges, and optimize HR strategies, all with expertise and care
+        </div>
+        
       </footer>
     </>
   )
