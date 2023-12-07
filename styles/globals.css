@@ -7,8 +7,7 @@ body {
     background: url('/AONE-STATIONERY.png') center/cover no-repeat; /* Set your image path and adjust properties as needed */
   /* Adjust the alpha (transparency) value as needed */
   background-color: rgba(255, 255, 255, 0.4);
-    
-  
+
 }
 
 * {
@@ -22,7 +21,7 @@ body {
 main {
 
   padding: 5rem 0;
-  flex: 1;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,11 +36,14 @@ code {
 }
 
 .container {
+  padding: 5rem 0;
+  
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex:1;
 }
 .greenContainer{
   display: flex;
