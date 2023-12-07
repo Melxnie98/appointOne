@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 import styles from './FixedHeader.module.css';
 
 const FixedHeader = ({ title }) => {
-  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [prevScrollPos, setPrevScrollPos] = useState(0); // Initialize with 0
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
+      const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
       const header = document.getElementById('fixed-header');
 
       if (prevScrollPos > currentScrollPos) {
@@ -21,11 +21,14 @@ const FixedHeader = ({ title }) => {
       setPrevScrollPos(currentScrollPos);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    if (typeof window !== 'undefined') {
+      // Ensure that the code runs only in the browser, not during server-side rendering
+      window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
   }, [prevScrollPos]);
 
   return (
@@ -37,3 +40,4 @@ const FixedHeader = ({ title }) => {
 };
 
 export default FixedHeader;
+
