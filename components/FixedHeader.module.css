@@ -9,11 +9,12 @@
     padding: 10px;
     z-index: 1;
     text-align: right;
-    font-size: large;
+    
 
   }
   
   .title {
     margin: 0;
+    font-size: large;
   }
   
