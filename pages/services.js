@@ -75,7 +75,7 @@ const ServicesPage = () => {
        
         </div>
         <div className="lightGreenContainer">
-        <div className="innerContainer">
+        <div className="fiftyContainer">
             <p> Questions?</p>
             <h2>Call Now</h2>
             <p>Ready to take the next step? Call now and let’s embark on your journey to empowerment and resolution.</p>
@@ -83,7 +83,7 @@ const ServicesPage = () => {
         <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
             
         </div>
-        <div className="innerContainer">
+        <div className="fiftyContainer">
         <img src="/AONEpc.png" alt="Team"/>
             </div>
     </div>

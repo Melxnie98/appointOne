@@ -13,6 +13,13 @@ const PricingPage = () => {
 
       <main>
       <ScrollableHeader />
+      <div className="cardContainer">
+        <div className="overlay">
+          <div className="fiftyContainer">
+          <h1>Pricing</h1>
+          </div>
+        </div>
+      </div>
 
         <p className="description">
           Pricing <code>pages/pricing.js</code>
