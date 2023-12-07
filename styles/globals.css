@@ -18,6 +18,10 @@ body {
   height: 500px;
   width: 500px;
 }
+.transformationImg{
+  height: 520px;
+  width: 860px;
+}
 
 main {
   display: flex;
