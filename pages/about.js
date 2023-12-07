@@ -31,9 +31,7 @@ const AboutPage = () => {
         I am an accredited Mediator with the Mediators Institute Ireland(MII)  Associate of Chartered Institute Personnel And Development (CIPD) and accredited member of  Institute Guidance Counsellors( IGC)
         My professional journey spans over three decades, during which I have held senior HR roles in both the IT and Medical Device sectors. This substantial experience is complemented by over eight years of dedicated service in the field of career guidance. I have also garnered valuable insights and expertise during my tenure in the public sector, where I occupied regional roles that facilitated collaboration between Industry, Education, and State Agencies. These roles were instrumental in the identification of skills gaps and the implementation of strategies to address them. My strengths and skills have been honed through extensive involvement in change management, organizational restructuring, conflict resolution, facilitation, mediation, and career coaching activities.
         My interests lie in the outdoors kayaking, open water swimming and hillwalking.  Generally love life and approach everything with an optimistic outlook.
-        
-                
-                </p>
+       </p>
       </div>
         
       
