@@ -16,13 +16,12 @@ const ScrollableHeader = ({ title }) => {
     const handleScroll = () => {
       const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
 
-      if (prevScrollPos > currentScrollPos) {
-        // Scrolling up, show the header at the top
-        setIsHeaderAtTop(true);
-      } else {
-        // Scrolling down, move the header to the top of the screen
-        setIsHeaderAtTop(currentScrollPos === 0);
-      }
+      // Adjust the sensitivity based on your needs
+      const sensitivity = 5;
+      const isScrollingDown = prevScrollPos < currentScrollPos && currentScrollPos - prevScrollPos > sensitivity;
+      const isScrollingUp = prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > sensitivity;
+
+      setIsHeaderAtTop(isScrollingUp || currentScrollPos === 0);
 
       setPrevScrollPos(currentScrollPos);
     };
