@@ -18,6 +18,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
+      <Footer />
 
       
     </div>

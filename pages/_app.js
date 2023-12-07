@@ -17,7 +17,7 @@ function Application({ Component, pageProps }) {
       <div className="content">
         <Component {...pageProps} />
       </div>
-      <Footer />
+      
     </div>
   );
 }
