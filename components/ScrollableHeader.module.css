@@ -9,7 +9,7 @@
     z-index: 2; 
  
     transition: transform 0.5s;
-  transform: translateY(0);
+    transform: translateY(0);
     text-align: center;
     
 
@@ -43,5 +43,5 @@
    
   }
   .atTop {
-    transform: translateY(0);
+    transform: translateY(100);
   }
