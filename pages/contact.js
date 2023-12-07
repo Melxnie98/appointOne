@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div className="container">
       <Head>
-        <title>Appoint one</title>
+        <title>Contact - Appoint one</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
