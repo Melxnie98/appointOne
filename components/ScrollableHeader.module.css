@@ -39,6 +39,6 @@
     cursor: pointer;
    
   }
-  .visible {
-    transform: translateY(100%); /* Translate the header upwards by its height */
+  .atTop {
+    transform: translateY(-100%); /* Translate the header upwards by its height */
   }
