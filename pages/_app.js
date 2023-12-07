@@ -2,6 +2,7 @@
 import '../styles/globals.css';
 import FixedHeader from '@components/FixedHeader'
 import ScrollableHeader from '@components/ScrollableHeader';
+import Footer from '@components/Footer'
 
 function Application({ Component, pageProps }) {
   return (
