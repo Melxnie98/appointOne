@@ -6,7 +6,7 @@ const FixedHeader = ({ title }) => {
 
   return (
     <header className={styles.fixedHeader} >
-      <img src="/phone.png" alt="Phone" className={icons}/>
+      <img src="/phone.png" alt="Phone" className={styles.icons}/>
       <h1 className={styles.title}>{title}</h1>
     </header>
   );
