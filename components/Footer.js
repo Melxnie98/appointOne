@@ -17,11 +17,11 @@ export default function Footer() {
         </div>
         <div className="innerContainer" >
           <h1>Quick Links</h1>
-          <div onClick={() => navigateTo('/index')}>Home</div>
-          <div onClick={() => navigateTo('/services')}>Services</div>
-          <div onClick={() => navigateTo('/about')}>About Us</div>
-          <div onClick={() => navigateTo('/pricing')}>Pricing</div>
-          <div onClick={() => navigateTo('/contact')}>Contact Us</div>
+          <div className={styles.nav} onClick={() => navigateTo('/index')}>Home</div>
+          <div className={styles.nav} onClick={() => navigateTo('/services')}>Services</div>
+          <div className={styles.nav} onClick={() => navigateTo('/about')}>About Us</div>
+          <div className={styles.nav} onClick={() => navigateTo('/pricing')}>Pricing</div>
+          <div className={styles.nav} onClick={() => navigateTo('/contact')}>Contact Us</div>
         </div>
         <div className="innerContainer" >
           <h1>Contact us</h1>

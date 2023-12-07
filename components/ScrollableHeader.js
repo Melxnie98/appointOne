@@ -6,7 +6,6 @@ import styles from './ScrollableHeader.module.css';
 const ScrollableHeader = ({ title }) => {
   const router = useRouter();
   
-
   const navigateTo = (path) => {
     router.push(path);
   }
