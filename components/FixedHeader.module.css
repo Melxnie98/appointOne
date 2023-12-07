@@ -1,6 +1,6 @@
 /* styles/FixedHeader.module.css */
 .fixedHeader {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -9,7 +9,6 @@
     padding: 10px;
     z-index: 1;
     text-align: right;
-    
 
   }
   

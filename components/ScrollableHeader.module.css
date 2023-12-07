@@ -1,6 +1,6 @@
 /* styles/ScrollableHeader.module.css */
 .scrollableHeader {
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     color:#000000;
     font-size: large;
