@@ -19,17 +19,21 @@ export default function Home() {
           <div className="Container">
             <h2>Your Trusted Guide for Personal and Professional Growth</h2>
             <h1>Empowerment and Resolution with Claire Hurley</h1>
-            Welcome to Appoint One founded by Claire Hurley, a seasoned HR Professional, qualified Mediator and qualified Career Guidance Counsellor. The aim of Appoint One is to partner with individuals, families and organizations to empower them to take the next step, that is theirs to take, in the resolution of a conflict, the provision of a harmonious work culture/environment or make career decisions. 
+            <p>Welcome to Appoint One founded by Claire Hurley, a seasoned HR Professional, qualified Mediator and qualified Career Guidance Counsellor. The aim of Appoint One is to partner with individuals, families and organizations to empower them to take the next step, that is theirs to take, in the resolution of a conflict, the provision of a harmonious work culture/environment or make career decisions. </p>
             <button onClick={() => navigateTo('/services')}>Our Services</button>
             <button onClick={() => navigateTo('/contact')}>Contact Us</button>
           </div> 
         </div>
         <div className="cardContainer">
-        <div className="overlay">
-
-          
+          <div className="overlay">
+           <div className="fiftyContainer">
             <h1>Why Choose Appoint One</h1>
-           <p>Choose Appoint One for a unique blend of compassion, integrity, and expertise. This is a values  driven organization where respect for the individual and working with discretion, empathy and integrity is foremost.  An authentic empathetic approach ensures personalized guidance for career transitions, conflict resolution, and HR strategy refinement and implementation. </p>
+          </div>
+          <div className="fiftyContainer">
+          <p>Choose Appoint One for a unique blend of compassion, integrity, and expertise. This is a values  driven organization where respect for the individual and working with discretion, empathy and integrity is foremost.  An authentic empathetic approach ensures personalized guidance for career transitions, conflict resolution, and HR strategy refinement and implementation. </p>
+          </div>
+
+           
           
 
         </div></div>
