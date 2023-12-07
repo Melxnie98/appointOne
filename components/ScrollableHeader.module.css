@@ -6,7 +6,7 @@
     font-size: large;
     padding: 10px;
     width: 100%;
-    z-index: 2; 
+    z-index: 1; 
     text-align: center;
     top: 00px;
   }
@@ -18,7 +18,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
   }
   
   .logo {

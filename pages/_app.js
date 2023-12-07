@@ -9,10 +9,11 @@ function Application({ Component, pageProps }) {
     <div>
       
         <div><FixedHeader title="+353 (0)83 4400999" /></div>
-        <div><ScrollableHeader /></div>
+        
       
       
       <div className="content">
+      <ScrollableHeader />
         <Component {...pageProps} />
       </div>
       
