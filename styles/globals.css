@@ -70,6 +70,16 @@ code {
   flex:1;
   text-align: center;
 }
+.lightGreenContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:#EFF9E3;
+  color: #ffffff;
+  flex:1;
+  text-align: center;
+}
 .contentContainer{
   display: flex;
   flex-direction: row;
