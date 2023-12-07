@@ -16,12 +16,7 @@ const ScrollableHeader = ({ title }) => {
     const handleScroll = () => {
       const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
 
-      // Adjust the sensitivity based on your needs
-      const sensitivity = 5;
-      const isScrollingDown = prevScrollPos < currentScrollPos && currentScrollPos - prevScrollPos > sensitivity;
-      const isScrollingUp = prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > sensitivity;
-
-      setIsHeaderAtTop(isScrollingUp || currentScrollPos === 0);
+      setIsHeaderAtTop(currentScrollPos === 0);
 
       setPrevScrollPos(currentScrollPos);
     };
@@ -52,3 +47,4 @@ const ScrollableHeader = ({ title }) => {
 };
 
 export default ScrollableHeader;
+
