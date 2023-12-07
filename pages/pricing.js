@@ -6,6 +6,7 @@ import ScrollableHeader from '@components/ScrollableHeader';
 const PricingPage = () => {
   return (
     <div className="container">
+
       <Head>
         <title>Pricing - Appoint one</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +21,7 @@ const PricingPage = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="contentContainer">
         <div className="fiftyContainer">
            <img src="/transformations.jpg" alt="Team"/>
           </div>
@@ -31,9 +32,6 @@ const PricingPage = () => {
           </div>
         </div>
 
-        <p className="description">
-          Pricing <code>pages/pricing.js</code>
-        </p>
       </main>
       <Footer />
     </div>
