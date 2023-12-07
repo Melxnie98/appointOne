@@ -14,12 +14,11 @@ const ServicesPage = () => {
       <div className="servicesContainer">
         <div className="overlay">
             <div className="fiftyContainer">
-                <h1>Unlocking Opportunities</h1>
-            </div>
-        <div className="fiftyContainer">
-            <h2>Explore the Range of Services at Appoint One</h2>
-            <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p>
-        </div>
+                <h1>Unlocking Opportunities</h1>     
+                <h2>Explore the Range of Services at Appoint One</h2>
+                <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p> 
+                <button className="green-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+         </div>
         </div>
       </div>
 
