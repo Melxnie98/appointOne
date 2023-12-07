@@ -18,7 +18,7 @@ const ScrollableHeader = ({ title }) => {
 
       const isScrollingUp = prevScrollPos > currentScrollPos;
 
-      setIsHeaderAtTop(isScrollingUp || currentScrollPos === 0);
+      setIsHeaderAtTop(isScrollingUp || currentScrollPos === 20);
 
       setPrevScrollPos(currentScrollPos);
     };
