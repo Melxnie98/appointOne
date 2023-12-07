@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
 
-const AboutPage = () => {
+const PricingPage = () => {
   return (
     <div className="container">
       <Head>
@@ -13,7 +13,7 @@ const AboutPage = () => {
       <main>
 
         <p className="description">
-          About <code>pages/aboutUs.js</code>
+          Pricing <code>pages/pricing.js</code>
         </p>
       </main>
       <Footer />
@@ -21,4 +21,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default PricingPage;
