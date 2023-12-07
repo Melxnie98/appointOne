@@ -11,6 +11,11 @@
     display:flex;
     
   }
+  .icons{
+    height: 20px;
+    width: 20px;
+  
+  }
   
   .title {
     margin: 0;
