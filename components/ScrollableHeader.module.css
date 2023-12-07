@@ -8,8 +8,8 @@
     width: 100%;
     z-index: 2; 
     margin-bottom: auto;
-    transition: transform 0.5s; /* Adjust the transition property to 'transform' */
-    transform: translateY(0); /* Set the initial translateY to 0 */
+    transition: transform 0.9s; /* Adjust the transition property to 'transform' */
+    
    
     text-align: center;
   }
@@ -42,5 +42,5 @@
    
   }
   .atTop {
-    transform: translateY(-170%); /* Translate the header upwards by its height */
+    transform: translateY(170%); /* Translate the header upwards by its height */
   }
