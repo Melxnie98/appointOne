@@ -44,6 +44,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   flex:1;
   width:30%;
@@ -58,7 +59,16 @@ code {
   color: #ffffff;
   padding: 5rem 0;
 }
-
+.fiftyGreenContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  width:50%;
+  color: #000000;
+  padding: 5rem 0;
+}
 
 .greenContainer{
   display: flex;
