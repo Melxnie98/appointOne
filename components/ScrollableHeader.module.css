@@ -9,9 +9,9 @@
     z-index: 2; 
     margin-bottom: auto;
     transition: transform 0.9s; /* Adjust the transition property to 'transform' */
-    
-   
     text-align: center;
+    transform: translateY(-20); 
+
   }
   
   .title {
