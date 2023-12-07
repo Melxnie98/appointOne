@@ -5,7 +5,7 @@ import styles from './ScrollableHeader.module.css';
 
 const ScrollableHeader = ({ title }) => {
   const router = useRouter();
-  const [isHeaderAtTop, setIsHeaderAtTop] = useState(true);
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   const navigateTo = (path) => {
@@ -16,7 +16,9 @@ const ScrollableHeader = ({ title }) => {
     const handleScroll = () => {
       const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
 
-      setIsHeaderAtTop(currentScrollPos === 0);
+      const isScrollingUp = prevScrollPos > currentScrollPos;
+
+      setIsHeaderVisible(isScrollingUp || currentScrollPos === 0);
 
       setPrevScrollPos(currentScrollPos);
     };
@@ -32,7 +34,7 @@ const ScrollableHeader = ({ title }) => {
   }, [prevScrollPos]);
 
   return (
-    <header className={`${styles.scrollableHeader} ${isHeaderAtTop ? styles.atTop : ''}`}>
+    <header className={`${styles.scrollableHeader} ${isHeaderVisible ? styles.visible : ''}`}>
       <h1 className={styles.title}>{title}</h1>
       <img src="/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
       <div className={styles.navigation}>
