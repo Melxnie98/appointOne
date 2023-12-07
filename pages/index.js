@@ -24,7 +24,7 @@ export default function Home() {
             <button onClick={() => navigateTo('/contact')}>Contact Us</button>
           </div> 
         </div>
-        <div>
+        <div className="Container">
           <h1>Why Choose Appoint One</h1>
           <p>Choose Appoint One for a unique blend of compassion, integrity, and expertise. This is a values  driven organization where respect for the individual and working with discretion, empathy and integrity is foremost.  An authentic empathetic approach ensures personalized guidance for career transitions, conflict resolution, and HR strategy refinement and implementation. </p>
 
