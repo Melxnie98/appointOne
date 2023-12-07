@@ -11,8 +11,8 @@ const ServicesPage = () => {
       </Head>
 
       <main>
-      <div className="overlay">
-        <div className="servicesContainer">
+      <div className="servicesContainer">
+        <div className="overlay">
             <div className="fiftyContainer">
                 <h1>Unlocking Opportunities</h1>
             </div>
