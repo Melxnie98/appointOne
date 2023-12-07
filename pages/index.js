@@ -29,14 +29,20 @@ export default function Home() {
           Choose Appoint One for a unique blend of compassion, integrity, and expertise. This is a values  driven organization where respect for the individual and working with discretion, empathy and integrity is foremost.  An authentic empathetic approach ensures personalized guidance for career transitions, conflict resolution, and HR strategy refinement and implementation. 
 
         </div>
-        <div>
+        <div className="greenContainer">
           <h1>Expertise</h1>
-         With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, Claire Hurley brings a wealth of expertise to guide you through career complexities, resolve disputes, and support you on HR related topics.
+          <h2>With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, Claire Hurley brings a wealth of expertise to guide you through career complexities, resolve disputes, and support you on HR related topics.</h2>
+          <h1>Compassion and Empathy</h1>
+          <h2>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </h2>
+        </div>
+        <div className="greenContainer">
+          <h1>Integrity and Transparency</h1>
+          <h2>Trust is at the core of all interactions. You can rely on honesty, transparency, and commitment to your best interests. You will be empowered with the knowledge and tools to make informed decisions.</h2>
+          <h1>Tailored Solutions</h1>
+          <h2>My strengths lie in my capacity for empathy  which allows me to create personalized solutions that fit your needs, whether you're at a career crossroads, facing workplace conflicts, or in need of HR guidance.</h2>
         </div>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        
       </main>
       <Footer />
 
