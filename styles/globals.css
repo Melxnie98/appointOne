@@ -16,7 +16,6 @@ body {
 }
 
 main {
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,6 +64,7 @@ code {
   background-color:#6D9340;
   color: #ffffff;
   flex:1;
+  text-align: justify;
 }
 .contentContainer{
   display: flex;
@@ -72,6 +72,7 @@ code {
   justify-content: center;
   align-items: center;
   flex:1;
+  text-align: justify;
   
 }
 .overlay{
@@ -95,6 +96,8 @@ code {
   justify-content: center;
   align-items: center;
   flex:1;
+  padding: 5rem 0;
+  text-align: justify;
 }
 .cardContainer{
   display: flex;
