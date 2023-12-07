@@ -24,7 +24,7 @@ const AboutPage = () => {
       
       <div className="container">
         <h1>Meet Claire Hurley</h1>
-      <img src="/claire.jpeg" alt="Claire Hurley"/>
+      <img className="pic" src="/claire.jpeg" alt="Claire Hurley"/>
       <p>
         
         I established Appoint One with a clear vision - to provide support and inspiration to individuals and organizations, enabling them to effectively address complex challenges and progress in a positive direction. In so doing, be fulfilled in the work that I do.  My value is in HR problem solving, conflict resolution, mediation and facilitation, employee relations, and career guidance for adults seeking a change. I offer a wide range of services to support positive workplace relations in organizations and will guide employers and employees through difficult work situations be it a grievance, investigation, conflict or complex disciplinary issue. I offer workplace, community and family mediation including child inclusive mediation.  I work with integrity and discretion.  I approach situations with a  solution focused mindset prioritizing trust and transparency of communication. 
