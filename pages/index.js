@@ -36,10 +36,14 @@ export default function Home() {
           <p>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
         </div>
         <div className="greenContainer">
-          <h1>Integrity and Transparency</h1>
-          <p>Trust is at the core of all interactions. You can rely on honesty, transparency, and commitment to your best interests. You will be empowered with the knowledge and tools to make informed decisions.</p>
-          <h1>Tailored Solutions</h1>
-          <p>My strengths lie in my capacity for empathy  which allows me to create personalized solutions that fit your needs, whether you're at a career crossroads, facing workplace conflicts, or in need of HR guidance.</p>
+          <div className="Container">
+            <h1>Integrity and Transparency</h1>
+            <p>Trust is at the core of all interactions. You can rely on honesty, transparency, and commitment to your best interests. You will be empowered with the knowledge and tools to make informed decisions.</p>
+          </div>
+          <div className="Container">
+            <h1>Tailored Solutions</h1>
+            <p>My strengths lie in my capacity for empathy  which allows me to create personalized solutions that fit your needs, whether you're at a career crossroads, facing workplace conflicts, or in need of HR guidance.</p>
+          </div>
         </div>
 
         
