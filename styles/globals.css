@@ -89,16 +89,7 @@ code {
   flex:1;
   text-align: center;
 }
-.plainContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color:#6D9340;
-  color: #ffffff;
-  flex:1;
-  text-align: center;
-}
+
 .lightGreenContainer{
   display: flex;
   flex-direction: row;

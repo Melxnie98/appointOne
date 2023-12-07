@@ -21,7 +21,7 @@ const PricingPage = () => {
           </div>
         </div>
       </div>
-      <div className="plainContainer">
+      <div className="lightGreenContainer">
         <div className="innerContainer">
            <img className="transformationImg"src="/transformations.jpg" alt="Team"/>
           </div>
