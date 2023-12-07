@@ -15,8 +15,8 @@ body {
   margin-top: 25px; /* Adjust this value based on your fixed header height */
 }
 .pic{
-  height: 60px;
-  width: 40%;
+  height: 500px;
+  width: 500px;
 }
 
 main {
@@ -76,7 +76,7 @@ code {
   justify-content: center;
   align-items: center;
   background-color:#EFF9E3;
-  color: #ffffff;
+  color: #000000;
   flex:1;
   text-align: center;
 }
