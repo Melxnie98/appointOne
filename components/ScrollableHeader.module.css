@@ -1,6 +1,6 @@
 /* styles/ScrollableHeader.module.css */
 .scrollableHeader {
-    position: fixed;
+    position: -webkit-sticky;
     background-color: #ffffff;
     color:#000000;
     font-size: large;
@@ -8,6 +8,7 @@
     width: 100%;
     z-index: 2; 
     text-align: center;
+    top: 0px;
   }
   
   .title {
