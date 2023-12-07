@@ -40,8 +40,9 @@
   .navItem {
     margin-right: 20px;
     cursor: pointer;
+    padding: 5px;
    
   }
   .atTop {
-    transform: translateY(100);
+    transform: translateY(0);
   }
