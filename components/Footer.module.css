@@ -17,6 +17,7 @@
   float:right;
   text-align: right;
   align-items: flex-end;
+  flex: 1;
 }
 
 
