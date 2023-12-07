@@ -16,9 +16,9 @@ const ScrollableHeader = ({ title }) => {
     const handleScroll = () => {
       const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
 
-      const isScrollingUp = prevScrollPos > currentScrollPos;
+      const isScrollingDown = prevScrollPos < currentScrollPos;
 
-      setIsHeaderVisible(isScrollingUp || currentScrollPos === 0);
+      setIsHeaderVisible(!isScrollingDown || currentScrollPos === 0);
 
       setPrevScrollPos(currentScrollPos);
     };
@@ -49,4 +49,5 @@ const ScrollableHeader = ({ title }) => {
 };
 
 export default ScrollableHeader;
+
 
