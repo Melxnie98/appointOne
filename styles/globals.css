@@ -20,9 +20,7 @@ body {
 
 main {
   padding-top: 20px;
-
   padding: 5rem 0;
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +55,16 @@ code {
 }
 .contentContainer{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+.servicesContainer{
+  display: flex;
+  background: url('/AONEpc.png') center/cover no-repeat; /* Set your image path and adjust properties as needed */
+  /* Adjust the alpha (transparency) value as needed */
+  background-color: rgba(255, 255, 255, 0.4);
   flex-direction: row;
   justify-content: center;
   align-items: center;
