@@ -12,9 +12,13 @@ const ServicesPage = () => {
 
       <main>
       <div className="servicesContainer">
-        <h1>Unlocking Opportunities</h1>
-        Explore the Range of Services at Appoint One
+        <div className="fiftyContainer">
+            <h1>Unlocking Opportunities</h1>
+        </div>
+        <div className="fiftyContainer">
+            <h2>Explore the Range of Services at Appoint One</h2>
         <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p>
+        </div>
       </div>
 
       </main>
