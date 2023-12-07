@@ -6,6 +6,7 @@ import styles from './ScrollableHeader.module.css';
 const ScrollableHeader = ({ title }) => {
   const router = useRouter();
   
+
   const navigateTo = (path) => {
     router.push(path);
   }
@@ -15,8 +16,8 @@ const ScrollableHeader = ({ title }) => {
   return (
     <header className={styles.scrollableHeader}>
       <h1 className={styles.title}>{title}</h1>
+      <img src="/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
       <div className={styles.navigation}>
-       <img src="/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
         <div className={styles.navItem} onClick={() => navigateTo('/index')}>Home</div>
         <div className={styles.navItem} onClick={() => navigateTo('/services')}>Services</div>
         <div className={styles.navItem} onClick={() => navigateTo('/about')}>About Us</div>
