@@ -32,4 +32,6 @@
     margin-right: 20px;
     cursor: pointer;
     float:right;
+    text-align: right;
+    align-items: flex-end;
   }
