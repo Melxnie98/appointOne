@@ -53,6 +53,24 @@ const ServicesPage = () => {
           </div>
        
         </div>
+        <div className="greenContainer">
+          <div className="innerContainer">
+            <h2>Employee Support</h2>
+            <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
+            <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+          </div>
+          <div className="innerContainer">
+            <h2>Facilitation</h2>
+            <p>Through my experience, I’ve orchestrated highly effective gatherings that harmonize education, state agencies, and industry on a large scale. My track record includes skillfully managing these meetings, where I’ve consistently demonstrated a unique talent for facilitating dialogue that extracts the maximum value from each interaction. I have a proven ability to assemble disparate groups and individuals who were previously unacquainted and transform them into cohesive and productive working teams. If you’re seeking facilitation services that can unite diverse stakeholders and foster collaborative, successful outcomes, I have the expertise you need. </p>
+            <ul>
+                <li>Facilitate meetings </li>
+                <li>Generate attendees for meetings and events</li>
+                <li>Facilitate workshops</li>
+                <li>Facilitate network events</li>
+            </ul>
+          </div>
+       
+        </div>
 
       </main>
       <Footer />
