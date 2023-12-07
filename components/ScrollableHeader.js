@@ -5,36 +5,16 @@ import styles from './ScrollableHeader.module.css';
 
 const ScrollableHeader = ({ title }) => {
   const router = useRouter();
-  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
 
   const navigateTo = (path) => {
     router.push(path);
   }
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
 
-      const isScrollingDown = prevScrollPos < currentScrollPos;
-
-      setIsHeaderVisible(!isScrollingDown || currentScrollPos === 0);
-
-      setPrevScrollPos(currentScrollPos);
-    };
-
-    if (typeof window !== 'undefined') {
-      // Ensure that the code runs only in the browser, not during server-side rendering
-      window.addEventListener('scroll', handleScroll);
-
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }
-  }, [prevScrollPos]);
 
   return (
-    <header className={`${styles.scrollableHeader} ${isHeaderVisible ? styles.visible : ''}`}>
+    <header className={styles.scrollableHeader}>
       <h1 className={styles.title}>{title}</h1>
       <img src="/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
       <div className={styles.navigation}>
