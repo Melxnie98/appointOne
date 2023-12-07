@@ -54,13 +54,9 @@ export default function Home() {
             <h2>Tailored Solutions</h2>
             <p>My strengths lie in my capacity for empathy  which allows me to create personalized solutions that fit your needs, whether you're at a career crossroads, facing workplace conflicts, or in need of HR guidance.</p>
           </div>
-        </div>
-
-        
+        </div> 
       </main>
       <Footer />
-
-      
     </div>
   )
 }
