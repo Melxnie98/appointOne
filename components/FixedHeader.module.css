@@ -7,8 +7,9 @@
     color: #ffffff ;
     padding: 10px;
     z-index: 1;
-    text-align: right;
+    align-items: flex-end;
     display:flex;
+    
   }
   
   .title {
