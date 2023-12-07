@@ -39,5 +39,5 @@
    
   }
   .visible {
-    transform: translateY(-100%); /* Translate the header upwards by its height */
+    transform: translateY(100%); /* Translate the header upwards by its height */
   }
