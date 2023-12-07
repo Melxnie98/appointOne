@@ -11,11 +11,14 @@ const AboutPage = () => {
       </Head>
 
       <main>
-      <div className="cardContainer">
+        <div className="container">
+        <div className="cardContainer">
         <div className="overlay">
           <h1>About Me</h1>
         </div>
       </div>
+        </div>
+      
       <div className="container">
         <h1>Meet Claire Hurley</h1>
       <img src="/claire.png" alt="Claire Hurley"/>

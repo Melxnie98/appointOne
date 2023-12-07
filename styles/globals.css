@@ -92,7 +92,12 @@ code {
   background: url('/AONEpc.png') center/cover no-repeat; /* Set your image path and adjust properties as needed */
   /* Adjust the alpha (transparency) value as needed */
   background-color: rgba(255, 255, 255, 0.4);
-  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  padding: 5rem 0;
+  text-align:center;
 }
 .cardContainer{
   display: flex;
