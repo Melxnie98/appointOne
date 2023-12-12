@@ -36,8 +36,8 @@ main {
 .greenContainer{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content:baseline;
+  align-items:flex-start;
   background-color:#6D9340;
   color: #ffffff;
   text-align: center;
