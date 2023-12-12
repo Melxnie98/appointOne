@@ -12,7 +12,7 @@ export default function Footer() {
       <footer className={styles.footer}>
 
         <div className="innerContainer" >
-          <img src="/HeadImg.png" alt="Appoint One Logo" className={styles.logo} />
+          <img src="/images/HeadImg.png" alt="Appoint One Logo" className={styles.logo} />
           <p>At Appoint One, we’re your partners in personal and professional growth. With compassion, integrity, and empathy as our cornerstones, we guide you through career complexities, resolve challenges, and optimize HR strategies, all with expertise and care.</p>
         </div>
         <div className="innerContainer" >
