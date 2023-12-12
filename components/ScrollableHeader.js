@@ -15,7 +15,7 @@ const ScrollableHeader = ({ title }) => {
       <div className={styles.headerContent}>
       <div className={styles.navigation}>
       <h1 className={styles.title}>{title}</h1>
-      <img src="/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
+      <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
       
         <div className={styles.navItem} onClick={() => navigateTo('/index')}>Home</div>
         <div className={styles.navItem} onClick={() => navigateTo('/services')}>Services</div>

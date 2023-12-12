@@ -18,7 +18,7 @@ export default function Home() {
       
         <div className="greenContainer">
           <div className="thirtyFiveContainer">
-          <img src="/team.png" alt="Team"/>
+          <img src="/images/team.png" alt="Team"/>
           </div>
           <div className="sixtyFiveContainer">
             <h2>Your Trusted Guide for Personal and Professional Growth</h2>

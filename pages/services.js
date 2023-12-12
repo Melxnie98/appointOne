@@ -85,7 +85,7 @@ const ServicesPage = () => {
               
           </div>
         <div className="fiftyGreenContainer">
-            <img className="laptopImg" src="/AONEpc.png" alt="Team"/>
+            <img className="laptopImg" src="/images/AONEpc.png" alt="Team"/>
         </div>
     </div>
 

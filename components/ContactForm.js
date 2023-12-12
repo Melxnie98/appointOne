@@ -17,7 +17,7 @@ const ContactForm = () => {
 
       // Send email using nodemailer or your preferred email service
       const emailData = {
-        to: 'desired@example.com',
+        to: 'melanieleonard98@hotmail.com',
         subject: 'New Form Submission',
         text: `
           Name: ${values.name}
