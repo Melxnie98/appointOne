@@ -26,9 +26,9 @@ export default function Footer() {
         </div>
         <div className="innerContainer" >
           <h1>Contact us</h1>
-          <h3>1 UPPER EAST HILL COBH, CO.CORK P24 XA61</h3>
-          <h3>+353 (0)83 4400999</h3>
-          <h3>claire@appointone.ie</h3>
+          <p>1 UPPER EAST HILL COBH, CO.CORK P24 XA61</p>
+          <p>+353 (0)83 4400999</p>
+          <p>claire@appointone.ie</p>
         </div>
         
       </footer>
