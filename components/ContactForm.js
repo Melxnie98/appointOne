@@ -41,7 +41,7 @@ const ContactForm = () => {
   });
 
   return (
-    <form onSubmit={formik.handleSubmit} className="styles.contact-form">
+    <form onSubmit={formik.handleSubmit} className="contact-form">
       <div className="styles.form-row">
         <div className="styles.input-group">
           <label htmlFor="name">Name:</label>
