@@ -1,19 +1,19 @@
 .footer {
   width: 100%;
   display: flex;
+  margin: 0px;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #eaeaea;
   background-color: #eaeaea;
 }
 
-.nav{
-  
+.nav{ 
   cursor: pointer;
   padding: 5px;
 }
 .logo {
-  height: 3em;
+  height: 20%;
   margin: 5px;
 }
 .across {
