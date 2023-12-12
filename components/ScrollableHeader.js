@@ -12,6 +12,7 @@ const ScrollableHeader = ({ title }) => {
 
   return (
     <header className={styles.scrollableHeader}>
+      <h1 className={styles.title}>{title}</h1>
       <img src="/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')}/>
       <div className={styles.navigation}>
         <div className={styles.navItem} onClick={() => navigateTo('/index')}>Home</div>
