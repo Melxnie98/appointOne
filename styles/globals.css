@@ -25,6 +25,7 @@ main {
   justify-content: center;
   align-items: center;
   flex:1;
+  flex-wrap: wrap;
 }
 /* full width containers */
 .container {
@@ -32,9 +33,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .greenContainer{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content:baseline;
   align-items:flex-start;
@@ -52,13 +55,14 @@ main {
   background-color:#EFF9E3;
   color: #000000;
   text-align: center;
+  flex-wrap: wrap;
 }
 .contentContainer{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
- 
+  flex-wrap: wrap;
   text-align: center;
   
 }
@@ -67,6 +71,7 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   flex:1;
   padding: 5rem 0;
   color: #ffffff;
@@ -79,6 +84,7 @@ main {
   background: url('/images/AONEpc.png') center/cover no-repeat; /* Set your image path and adjust properties as needed */
   /* Adjust the alpha (transparency) value as needed */
   background-color: rgba(255, 255, 255, 0.4);
+  flex-wrap: wrap;
  
 }
 .cardContainer{
@@ -87,6 +93,7 @@ main {
   /* Adjust the alpha (transparency) value as needed */
   background-color: rgba(255, 255, 255, 0.4);
   width: 100%;
+  flex-wrap: wrap;
 }
 .headerCardContainer{
   display: flex;
@@ -95,7 +102,7 @@ main {
   background-color: rgba(255, 255, 255, 0.4);
   width: 100%;
   height:40%;
-  
+  flex-wrap: wrap;
 }
 
 /* small  containers */
