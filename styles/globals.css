@@ -126,9 +126,9 @@ main{
   align-items: center;
   flex:1;
   padding: 10px;
-  width:50%;
+  width:45;
   color: #ffffff;
-  padding: 5rem 0;
+  padding: 10px;
 }
 .fiftyContainerBlackFont {
   display: flex;
