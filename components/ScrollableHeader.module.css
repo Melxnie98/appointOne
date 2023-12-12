@@ -8,7 +8,6 @@
     width: 100%;
     z-index: 1; 
     text-align: right;
-    top: 20px;
     display:flex;
     flex-direction: row;
   }
