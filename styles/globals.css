@@ -11,9 +11,9 @@ body {
 }
 
 /* styles/globals.css */
-.content {
-  margin-top: 40px; /* Adjust this value based on your fixed header height */
-}
+/* .content {
+   margin-top: 40px;Adjust this value based on your fixed header height 
+}*/
 .pic{
   height: 500px;
   width: 500px;
@@ -41,6 +41,7 @@ main {
   background-color:#6D9340;
   color: #ffffff;
   text-align: center;
+  width: 100%;
 }
 
 .lightGreenContainer{
