@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div> 
         <div className="contentContainer">
-          <div className="fiftyContainer">
+          <div className="fiftyContainerBlackFont">
           About Appoint One
           Empowering Your Journey with Compassion and Expertise
           At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.
@@ -72,8 +72,8 @@ export default function Home() {
           Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.
 
           </div>
-          <div className="fiftyContainer">
-          <img src="/images/slider4.jpeg" alt="people with colourful background"/>
+          <div className="fiftyContainerBlackFont">
+            <img src="/images/slider4.png" alt="people with colourful background"/>
           </div>
         
         </div>
