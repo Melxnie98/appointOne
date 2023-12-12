@@ -13,6 +13,7 @@ function Application({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <Footer />
+
     </div>
     
   );
