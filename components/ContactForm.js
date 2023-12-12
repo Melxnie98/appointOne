@@ -18,7 +18,7 @@ const ContactForm = () => {
       // Send email using nodemailer or your preferred email service
       const emailData = {
         to: 'melanieleonard98@hotmail.com',
-        subject: 'New Form Submission',
+        subject: 'New Web Form Submission',
         text: `
           Name: ${values.name}
           Email: ${values.email}
@@ -87,7 +87,7 @@ const ContactForm = () => {
       </div>
 
       <button type="submit" disabled={isSubmitting} className="styles.submit-button">
-        Submit
+        Find out More
       </button>
     </form>
   );
