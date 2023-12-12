@@ -19,8 +19,7 @@ body {
   width: 500px;
 }
 .transformationImg{
-  height: 520px;
-  width: 860px;
+  object-fit: contain;
 }
 
 main {
