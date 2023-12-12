@@ -41,9 +41,9 @@ const ContactForm = () => {
   });
 
   return (
-    <form onSubmit={formik.handleSubmit} className="contact-form">
-      <div className="styles.form-row">
-        <div className="styles.input-group">
+    <form onSubmit={formik.handleSubmit} className={styles.contactForm}>
+      <div className={styles.formRow}>
+        <div className={styles.inputGroup}>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -53,7 +53,7 @@ const ContactForm = () => {
             value={formik.values.name}
           />
         </div>
-        <div className="styles.input-group">
+        <div className={styles.inputGroup}>
           <label htmlFor="phone">Phone:</label>
           <input
             type="tel"
@@ -64,8 +64,8 @@ const ContactForm = () => {
           />
         </div>
       </div>
-
-      <div className="styles.input-group">
+  
+      <div className={styles.inputGroup}>
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -75,8 +75,8 @@ const ContactForm = () => {
           value={formik.values.email}
         />
       </div>
-
-      <div className="styles.input-group">
+  
+      <div className={styles.inputGroup}>
         <label htmlFor="message">Message:</label>
         <textarea
           id="message"
@@ -85,12 +85,13 @@ const ContactForm = () => {
           value={formik.values.message}
         />
       </div>
-
-      <button type="submit" disabled={isSubmitting} className="styles.submit-button">
+  
+      <button type="submit" disabled={isSubmitting} className={styles.submitButton}>
         Find out More
       </button>
     </form>
   );
+  
 };
 
 export default ContactForm;
