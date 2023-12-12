@@ -14,10 +14,7 @@ body {
 /* .content {
    margin-top: 40px;Adjust this value based on your fixed header height 
 }*/
-.pic{
-  height: 500px;
-  width: 500px;
-}
+
 .imgs{
   flex-shrink: 2;
   height:50%;
