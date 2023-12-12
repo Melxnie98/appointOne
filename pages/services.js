@@ -2,7 +2,8 @@ import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
 import { useRouter } from 'next/router';
-import ScrollableHeader from '@components/ScrollableHeader';
+
+import styles from './ContactForm.module.css';
 
 const ServicesPage = () => {
   return (
