@@ -21,43 +21,52 @@ const ContactForm = () => {
   });
 
   return (
-    <form onSubmit={formik.handleSubmit}>
-      <label htmlFor="name">Name:</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        onChange={formik.handleChange}
-        value={formik.values.name}
-      />
+    <form onSubmit={formik.handleSubmit} className="styles.contact-form">
+      <div className="styles.form-row">
+        <div className="styles.input-group">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            onChange={formik.handleChange}
+            value={formik.values.name}
+          />
+        </div>
+        <div className="styles.input-group">
+          <label htmlFor="phone">Phone:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            onChange={formik.handleChange}
+            value={formik.values.phone}
+          />
+        </div>
+      </div>
 
-      <label htmlFor="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        onChange={formik.handleChange}
-        value={formik.values.email}
-      />
+      <div className="styles.input-group">
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          onChange={formik.handleChange}
+          value={formik.values.email}
+        />
+      </div>
 
-      <label htmlFor="phone">Phone:</label>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        onChange={formik.handleChange}
-        value={formik.values.phone}
-      />
+      <div className="styles.input-group">
+        <label htmlFor="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          onChange={formik.handleChange}
+          value={formik.values.message}
+        />
+      </div>
 
-      <label htmlFor="message">Message:</label>
-      <textarea
-        id="message"
-        name="message"
-        onChange={formik.handleChange}
-        value={formik.values.message}
-      />
-
-      <button type="submit" disabled={isSubmitting}>
+      <button type="submit" disabled={isSubmitting} className="styles.submit-button">
         Submit
       </button>
     </form>
