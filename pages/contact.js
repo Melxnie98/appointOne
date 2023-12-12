@@ -24,7 +24,7 @@ const ContactPage = () => {
 
       <ContactForm />
       </main>
-      <Footer />
+     
     </div>
   );
 };
