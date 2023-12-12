@@ -55,6 +55,26 @@ main {
   color: #ffffff;
   padding: 5rem 0;
 }
+.sixtyFiveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  width:65%;
+  color: #ffffff;
+  padding: 5rem 0;
+}
+.thirtyFiveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  width:35%;
+  color: #ffffff;
+  padding: 5rem 0;
+}
 .fiftyGreenContainer {
   display: flex;
   flex-direction: column;
