@@ -15,7 +15,26 @@ const ContactForm = () => {
     onSubmit: async (values) => {
       setSubmitting(true);
 
-      // Send email logic here...
+      // Send email using nodemailer or your preferred email service
+      const emailData = {
+        to: 'desired@example.com',
+        subject: 'New Form Submission',
+        text: `
+          Name: ${values.name}
+          Email: ${values.email}
+          Phone: ${values.phone}
+          Message: ${values.message}
+        `,
+      };
+
+      // Assuming you have a server-side endpoint for sending emails
+      await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(emailData),
+      });
 
       setSubmitting(false);
     },

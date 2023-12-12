@@ -143,6 +143,10 @@ main {
   padding: 10px;
   color: #000000;
 }
+.laptopImg{
+  width:50%;
+  height:50%;
+}
 
 /*buttons round */
 .round-button {
