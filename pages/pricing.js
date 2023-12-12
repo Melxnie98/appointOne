@@ -10,6 +10,7 @@ const PricingPage = () => {
       <Head>
         <title>Pricing - Appoint one</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1"></meta>
       </Head>
 
       <main>
