@@ -6,6 +6,7 @@ export default function Footer() {
 
   const navigateTo = (path) => {
     router.push(path);
+    
   }
   return (
     <>
