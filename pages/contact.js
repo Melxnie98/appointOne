@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
 import ScrollableHeader from '@components/ScrollableHeader';
+import ContactForm from '../components/ContactForm';
 
 const ContactPage = () => {
   return (
@@ -12,11 +13,16 @@ const ContactPage = () => {
       </Head>
 
       <main>
+      <div className="cardContainer">
+        <div className="overlay">
+          <div className="fiftyContainer">
+          <h1>Contact Us</h1>
+          </div>
+        </div>
+      </div>
       
 
-        <p className="description">
-          contact <code>pages/contact.js</code>
-        </p>
+      <ContactForm />
       </main>
       <Footer />
     </div>

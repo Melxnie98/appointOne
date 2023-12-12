@@ -8,8 +8,8 @@
     width: 100%;
     z-index: 1; 
     text-align: right;
-    display:flex;
-    flex-direction: row;
+    top: 20px;
+    
   }
   
   .title {
