@@ -13,7 +13,7 @@ const PricingPage = () => {
       </Head>
 
       <main>
-      <ScrollableHeader />
+      
       <div className="cardContainer">
         <div className="overlay">
           <div className="fiftyContainer">

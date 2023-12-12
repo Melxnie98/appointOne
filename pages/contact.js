@@ -12,7 +12,7 @@ const ContactPage = () => {
       </Head>
 
       <main>
-      <ScrollableHeader />
+      
 
         <p className="description">
           contact <code>pages/contact.js</code>

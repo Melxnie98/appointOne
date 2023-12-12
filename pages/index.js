@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
-      <ScrollableHeader />
+      
         <div className="greenContainer">
           <img src="/team.png" alt="Team"/>
           <div className="Container">

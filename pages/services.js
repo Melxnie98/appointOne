@@ -13,7 +13,7 @@ const ServicesPage = () => {
       </Head>
 
       <main>
-      <ScrollableHeader />
+      
       <div className="servicesContainer">
         <div className="overlay">
             <div className="fiftyContainer">
