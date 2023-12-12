@@ -61,8 +61,8 @@ export default function Home() {
         </div> 
         <div className="contentContainer">
           <div className="fiftyContainerBlackFont">
-          About Appoint One
-          Empowering Your Journey with Compassion and Expertise
+          <h4 className="greenFont">About Appoint One</h4>
+          <h2>Empowering Your Journey with Compassion and Expertise</h2>
           At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.
 
           Founded by Claire Hurley, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.

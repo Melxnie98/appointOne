@@ -12,16 +12,14 @@ body {
 
 /* styles/globals.css */
 .content {
-  margin-top: 50px; /* Adjust this value based on your fixed header height */
+  margin-top: 40px; /* Adjust this value based on your fixed header height */
 }
 .pic{
   height: 500px;
   width: 500px;
 }
 
-.transformationImg{
-  object-fit: contain;
-}
+
 
 main {
   display: flex;
@@ -158,8 +156,8 @@ main {
 .greensquare{
   margin-bottom: 0px;
   margin-left : 0px;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: #6D9340;
   color: #ffffff;
 }
@@ -218,4 +216,8 @@ main {
 .green-button:hover {
   background-color: #ffffff; /* Dark gray background on hover */
   color: #6D9340; /* White text color on hover */
+}
+
+.greenFont{
+  color: #6D9340;
 }
