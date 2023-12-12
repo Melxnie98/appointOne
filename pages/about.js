@@ -13,7 +13,7 @@ const AboutPage = () => {
 
       <main>
         
-        <div className="cardContainer">
+        <div className="headerCardContainer">
         <div className="overlay">
           <div className="fiftyContainer">
           <h1>About Me</h1>

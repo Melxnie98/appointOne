@@ -14,7 +14,7 @@ const PricingPage = () => {
 
       <main>
       
-      <div className="cardContainer">
+      <div className="headerCardContainer">
         <div className="overlay">
           <div className="fiftyContainer">
           <h1>Pricing</h1>
