@@ -1,32 +1,15 @@
-// functions/send-email.js
+// pages/api/send-email.js
 
 import nodemailer from 'nodemailer';
 
-exports.handler = async (event, context) => {
-  if (event.httpMethod === 'OPTIONS') {
-    // Handle preflight request
-    return {
-      statusCode: 200,
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
-        'Access-Control-Allow-Headers': 'Content-Type',
-        'Access-Control-Max-Age': '86400', // 1 day
-      },
-      body: JSON.stringify({ success: true }),
-    };
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
-  if (event.httpMethod !== 'POST') {
-    return {
-      statusCode: 405,
-      body: JSON.stringify({ error: 'Method Not Allowed' }),
-    };
-  }
+  const { to, subject, text } = req.body;
 
-  const { to, subject, text } = JSON.parse(event.body);
-
-  // Configure nodemailer with your email service credentials using environment variables
+  // Replace the following with your nodemailer configuration
   const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
     port: process.env.EMAIL_PORT,
@@ -40,31 +23,16 @@ exports.handler = async (event, context) => {
   try {
     // Send email
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+      from: 'your-email@example.com',
       to,
       subject,
       text,
     });
 
-    return {
-      statusCode: 200,
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ success: true }),
-    };
+    res.status(200).json({ success: true });
   } catch (error) {
     console.error('Error sending email:', error);
-    return {
-      statusCode: 500,
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ success: false, error: 'Failed to send email' }),
-    };
+    res.status(500).json({ success: false, error: 'Failed to send email' });
   }
-};
-
+}
 
