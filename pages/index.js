@@ -73,7 +73,10 @@ export default function Home() {
 
           </div>
           <div className="fiftyContainerBlackFont">
-            <img src="/images/slider4.png" alt="people with colourful background"/>
+            <div>
+              Schedule A Free Consultation
+              Email us for more information and one of our counselors will call you to go over our programs.
+            </div>
           </div>
         
         </div>
