@@ -26,21 +26,21 @@ exports.handler = async (event, context) => {
 
   const { to, subject, text } = JSON.parse(event.body);
 
-  // Configure nodemailer with your Hotmail/Outlook email service credentials
+  // Configure nodemailer with your email service credentials using environment variables
   const transporter = nodemailer.createTransport({
-    host: 'smtp-mail.outlook.com',
-    port: 587,
-    secure: false,
+    host: process.env.EMAIL_HOST,
+    port: process.env.EMAIL_PORT,
+    secure: process.env.EMAIL_SECURE === 'true',
     auth: {
-      user: 'melanieleonard98@hotmail.com',
-      pass: 'Ilovegooch12',
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
 
   try {
     // Send email
     await transporter.sendMail({
-      from: 'melanieleonard98@hotmail.com',
+      from: process.env.EMAIL_USER,
       to,
       subject,
       text,
@@ -66,4 +66,5 @@ exports.handler = async (event, context) => {
     };
   }
 };
+
 
