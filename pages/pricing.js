@@ -33,7 +33,7 @@ const PricingPage = () => {
         </div>
 
       </main>
-      <Footer />
+    
     </div>
   );
 };
