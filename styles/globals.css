@@ -27,6 +27,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex:1;
 }
 
 .container {
@@ -34,7 +35,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex:1;
+ 
 }
 .innerContainer {
   display: flex;
