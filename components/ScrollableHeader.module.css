@@ -7,9 +7,8 @@
     padding: 10px;
     width: 100%;
     z-index: 1; 
-    text-align: center;
-    top: 0px;
-    
+    text-align: right;
+    top: 20px;
   }
   
   .title {

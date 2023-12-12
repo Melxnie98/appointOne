@@ -12,7 +12,7 @@ body {
 }
 /* styles/globals.css */
 .content {
-  margin-top: 25px; /* Adjust this value based on your fixed header height */
+  margin-top: 50px; /* Adjust this value based on your fixed header height */
 }
 .pic{
   height: 500px;
