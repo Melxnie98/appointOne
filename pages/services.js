@@ -89,7 +89,7 @@ const ServicesPage = () => {
     </div>
 
       </main>
-      <Footer />
+      
     </div>
   );
 };
