@@ -8,8 +8,7 @@
     width: 100%;
     z-index: 1; 
     text-align: right;
-    top: 20px;
-    
+    top: 0px;
   }
   
   .title {
@@ -28,7 +27,6 @@
   }
   
   .navigation {
-    position: sticky;
     display: flex;
     float:right;
     text-align: right;
