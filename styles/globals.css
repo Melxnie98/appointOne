@@ -45,6 +45,7 @@ body {
   color: #ffffff;
   text-align: center;
   width: 100%;
+  flex-shrink: 1;
 }
 
 .lightGreenContainer{
@@ -56,6 +57,7 @@ body {
   color: #000000;
   text-align: center;
   flex-wrap: wrap;
+  flex-shrink: 1;
 }
 .contentContainer{
   display: flex;
@@ -64,6 +66,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  flex-shrink: 1;
   
 }
 .overlay{
@@ -73,6 +76,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex:1;
+  flex-shrink: 1;
   padding: 5rem 0;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.4);
@@ -85,6 +89,7 @@ body {
   /* Adjust the alpha (transparency) value as needed */
   background-color: rgba(255, 255, 255, 0.4);
   flex-wrap: wrap;
+  flex-shrink: 1;
  
 }
 .cardContainer{
