@@ -14,7 +14,7 @@ const ContactPage = () => {
       </Head>
 
       <main>
-      <div className="cardContainer">
+      <div className="headerCardContainer">
         <div className="overlay">
           <div className="fiftyContainer">
           <h1>Contact Us</h1>
