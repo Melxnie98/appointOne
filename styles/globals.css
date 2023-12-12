@@ -4,12 +4,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-
 }
 
 * {
   box-sizing: border-box;
 }
+
 /* styles/globals.css */
 .content {
   margin-top: 50px; /* Adjust this value based on your fixed header height */
@@ -18,6 +18,7 @@ body {
   height: 500px;
   width: 500px;
 }
+
 .transformationImg{
   object-fit: contain;
 }
@@ -29,68 +30,13 @@ main {
   align-items: center;
   flex:1;
 }
-
+/* full width containers */
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
-.innerContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  flex:1;
-  width:30%;
-}
-.fiftyContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex:1;
-  padding: 10px;
-  width:50%;
-  color: #ffffff;
-  padding: 5rem 0;
-}
-.sixtyFiveContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
-  width:65%;
-  color: #ffffff;
-  padding: 5rem 0;
-  padding: 10px;
-}
-.thirtyFiveContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
- 
-  width:35%;
-  color: #ffffff;
-  padding: 5rem 0;
-}
-.fiftyGreenContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-  width:50%;
-  padding: 10px;
-  color: #000000;
-  padding: 5rem 0;
-}
-
 .greenContainer{
   display: flex;
   flex-direction: row;
@@ -98,7 +44,6 @@ main {
   align-items: center;
   background-color:#6D9340;
   color: #ffffff;
-  padding: 10px;
   text-align: center;
 }
 
@@ -109,7 +54,7 @@ main {
   align-items: center;
   background-color:#EFF9E3;
   color: #000000;
-  padding: 10px;
+ 
   text-align: center;
 }
 .contentContainer{
@@ -147,11 +92,65 @@ main {
   background-color: rgba(255, 255, 255, 0.4);
   width: 100%;
 }
+
+/* small  containers */
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex:1;
+  width:30%;
+}
+.fiftyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  padding: 10px;
+  width:50%;
+  color: #ffffff;
+  padding: 5rem 0;
+}
+.sixtyFiveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  width:65%;
+  color: #ffffff;
+  padding: 5rem 0;
+  padding: 10px;
+}
+.thirtyFiveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width:35%;
+  color: #ffffff;
+  padding: 5rem 0;
+}
+.fiftyGreenContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  padding: 10px;
+  color: #000000;
+}
+
+/*buttons round */
 .round-button {
   background-color: white;
   border-radius: 50%; /* Makes the button round */
   color: #333; /* Dark gray text color */
-  padding: 10px 20px; /* Adjust padding as needed */
+  padding: 20px 20px; /* Adjust padding as needed */
   font-size: 16px; /* Adjust font size as needed */
   cursor: pointer;
   outline: none; /* Remove default button outline */
@@ -168,7 +167,7 @@ main {
 
   border-radius: 50%; /* Makes the button round */
   color: #ffffff; /* Dark gray text color */
-  padding: 10px 20px; /* Adjust padding as needed */
+  padding: 20px 20px; /* Adjust padding as needed */
   font-size: 16px; /* Adjust font size as needed */
   cursor: pointer;
   outline: none; /* Remove default button outline */
