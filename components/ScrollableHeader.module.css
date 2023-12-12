@@ -22,14 +22,14 @@
   }
   
   .logo {
-    width: 20%; /* Adjust the size of the logo as needed */
+    width: 15%; /* Adjust the size of the logo as needed */
     float:left
   }
   
   .navigation {
     display: flex;
     float:right;
-    text-align: right;
+    text-align: center;
     align-items: flex-end;
     flex-shrink: 1;
   }
