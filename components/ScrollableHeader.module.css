@@ -16,6 +16,7 @@
     margin: 0;
   }
   .headerContent {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +28,7 @@
   }
   
   .navigation {
+    position: sticky;
     display: flex;
     float:right;
     text-align: right;
