@@ -150,7 +150,7 @@ main {
 /*buttons round */
 .round-button {
   background-color: white;
-  border-radius: 50%; /* Makes the button round */
+  border-radius: 12%; /* Makes the button round */
   color: #333; /* Dark gray text color */
   padding: 20px 20px; /* Adjust padding as needed */
   font-size: 16px; /* Adjust font size as needed */
@@ -166,7 +166,7 @@ main {
 
 .green-button {
   background-color: #6D9340;
-  border-radius: 50%; /* Makes the button round */
+  border-radius: 12%; /* Makes the button round */
   color: #ffffff; /* Dark gray text color */
   padding: 20px 20px; /* Adjust padding as needed */
   font-size: 16px; /* Adjust font size as needed */
