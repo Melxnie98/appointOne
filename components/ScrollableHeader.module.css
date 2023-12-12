@@ -18,7 +18,7 @@
     position: sticky;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-end;
   }
   
   .logo {
@@ -31,9 +31,11 @@
     float:right;
     text-align: right;
     align-items: flex-end;
+    flex-shrink: 1;
   }
   
   .navItem {
+    flex-shrink: 1;
     
     cursor: pointer;
     padding: 5px;
