@@ -36,7 +36,7 @@ const AboutPage = () => {
         
       
       </main>
-      <Footer />
+  
     </div>
   );
 };

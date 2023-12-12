@@ -72,8 +72,8 @@ export default function Home() {
           Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.
 
           </div>
-          <div className="fiftyContainerBlackFont">
-            <div>
+          <div className="fiftyContainerBgPhoto">
+            <div className="greenSquare">
               Schedule A Free Consultation
               Email us for more information and one of our counselors will call you to go over our programs.
             </div>
