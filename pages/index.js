@@ -59,6 +59,24 @@ export default function Home() {
             <p>My strengths lie in my capacity for empathy  which allows me to create personalized solutions that fit your needs, whether you're at a career crossroads, facing workplace conflicts, or in need of HR guidance.</p>
           </div>
         </div> 
+        <div className="contentContainer">
+          <div className="fiftyContainer">
+          About Appoint One
+          Empowering Your Journey with Compassion and Expertise
+          At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.
+
+          Founded by Claire Hurley, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.
+
+          With a strong foundation of compassion, integrity, and empathy, we provide tailored solutions to help you navigate career complexities, resolve workplace challenges, and optimize HR strategies.
+
+          Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.
+
+          </div>
+          <div className="fiftyContainer">
+          <img src="/images/slider4.jpeg" alt="people with colourful background"/>
+          </div>
+        
+        </div>
       </main>
    
     </div>
