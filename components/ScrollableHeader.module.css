@@ -13,7 +13,7 @@
   .title {
     margin: 0;
   }
-  .burger-icon {
+  .burgerIcon {
     /*display: none;  Hide the burger icon by default on larger screens */
     cursor: pointer;
     font-size: 24px;
@@ -78,7 +78,7 @@
     border-bottom: 1px solid #ddd; /* Add a border between items */
   }
 
-  .burger-icon {
+  .burgerIcon {
     display: block; /* Show the burger icon on small screens */
     cursor: pointer;
     font-size: 24px;
