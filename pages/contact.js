@@ -22,7 +22,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <div className="contentContainer">
+      <div className="container">
         <div className="fiftyGreenContainer">We’d love to hear from you! Whether you have questions, need assistance, or want to explore how we can help you achieve your goals, please don’t hesitate to reach out. Your journey to empowerment and resolution begins with a simple conversation. Contact us today, and let’s start this transformative dialogue together</div>
         <ContactForm className="fiftyGreenContainer" />
       </div>
