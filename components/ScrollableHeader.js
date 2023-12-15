@@ -1,6 +1,6 @@
 // components/ScrollableHeader.js
 import { useRouter } from 'next/router';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from './ScrollableHeader.module.css';
 
 const ScrollableHeader = ({ title }) => {
@@ -20,40 +20,33 @@ const ScrollableHeader = ({ title }) => {
   return (
     <header className={styles.scrollableHeader}>
       <div className={styles.headerContent}>
+        <h1 className={styles.title}>{title}</h1>
+        <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
         
-          <h1 className={styles.title}>{title}</h1>
-          <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
-          <div className={styles.navigation}>
-
-            <div className={styles.navItem} onClick={() => navigateTo('/index')}>
+        <div className={styles.topnav}>
+          <a className={styles.active} href="#home">
+            Logo
+          </a>
+          <div id="myLinks" className={isMenuOpen ? styles.show : ''}>
+            <a onClick={() => navigateTo('/index')} href="#home">
               Home
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/services')}>
+            </a>
+            <a onClick={() => navigateTo('/services')} href="#services">
               Services
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/about')}>
+            </a>
+            <a onClick={() => navigateTo('/about')} href="#about">
               About Us
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/pricing')}>
+            </a>
+            <a onClick={() => navigateTo('/pricing')} href="#pricing">
               Pricing
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
+            </a>
+            <a onClick={() => navigateTo('/contact')} href="#contact">
               Contact Us
-            </div>
-            <div className={`${styles.navItem} burger-icon`} onClick={toggleMenu}>
-              &#9776;
-            </div>
-
-          {isMenuOpen && (
-            <div className={styles.dropdownMenu}>
-              {/* Dropdown menu items go here */}
-              <div onClick={() => navigateTo('/index')}>Home</div>
-              <div onClick={() => navigateTo('/services')}>Services</div>
-              <div onClick={() => navigateTo('/about')}>About Us</div>
-              <div onClick={() => navigateTo('/pricing')}>Pricing</div>
-              <div onClick={() => navigateTo('/contact')}>Contact Us</div>
-            </div>
-          )}
+            </a>
+          </div>
+          <a className={styles.icon} onClick={toggleMenu}>
+            &#9776;
+          </a>
         </div>
       </div>
     </header>
