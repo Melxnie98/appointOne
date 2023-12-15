@@ -7,8 +7,8 @@
     padding: 10px;
     width: 100%;
     z-index: 1; 
-    text-align: right;
     top: 0px;
+    align-items:flex-start;
   }
   
   .title {
@@ -19,8 +19,8 @@
     cursor: pointer;
     font-size: 24px;
     visibility: hidden;
-   
   }
+
   .headerContent {
     position: sticky;
     display: flex;
@@ -81,6 +81,7 @@
     display: block; /* Show the burger icon on small screens */
     cursor: pointer;
     font-size: 24px;
+    color: #6D9340;;
   }
 }
  
