@@ -1,62 +1,60 @@
 /* styles/ScrollableHeader.module.css */
+
 .scrollableHeader {
-    position: sticky;
-    background-color: #ffffff;
-    color:#000000;
-    font-size: large;
-    padding: 10px;
-    width: 100%;
-    z-index: 1; 
-    top: 0px;
-  }
-  
-  .title {
-    margin: 0;
-  }
-  .burgerIcon {
-   
-    cursor: pointer;
-    font-size: 24px;
-   
-  }
+  position: sticky;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: large;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+}
 
-  .headerContent {
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    display: flex;
-  }
-  
-  .logo {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    width: 15%; /* Adjust the size of the logo as needed */
-    float:right;
-    margin-right: 50%;
-    
-  }
-  
-  .navigation {
-    display: flex;
-    float:right;
-    text-align: center;
-    align-items: flex-end;
-    flex-shrink: 1;
-  }
-  
-  .navItem {
-    flex-shrink: 1;
-    cursor: pointer;
-    padding: 5px;
-    margin-right: 0;
-  }
+.title {
+  margin: 0;
+}
+
+.burgerIcon {
+  display: block; /* Show the burger icon on small screens */
+  cursor: pointer;
+  font-size: 24px;
+  color: #6d9340;
+}
+
+.headerContent {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 15%; /* Adjust the size of the logo as needed */
+  float: right;
+  margin-right: 50px; /* Adjust based on your design */
+}
+
+.navigation {
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  flex-shrink: 1;
+}
+
+.navItem {
+  flex-shrink: 1;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 0;
+}
+
 /*phone*/
-
-
 @media only screen and (max-width: 600px) {
   .navigation {
-    display: none;  /* Hide the regular navigation on small screens */
+    display: none; /* Hide the regular navigation on small screens */
     flex-direction: column; /* Stack items vertically */
     position: absolute;
     top: 60px; /* Adjust the top position based on your header height */
@@ -73,11 +71,7 @@
   }
 
   .burgerIcon {
-    display: block; /* Show the burger icon on small screens */
-    cursor: pointer;
     font-size: 24px;
-    color: #6D9340;
-    visibility:visible;
+    color: #6d9340;
   }
 }
- 
