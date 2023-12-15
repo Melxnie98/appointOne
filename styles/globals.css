@@ -108,6 +108,40 @@ main{
   height:40%;
   flex-wrap: wrap;
 }
+@media (max-width: 600px) {
+  .contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center; 
+  }
+
+  .greenContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items:flex-start;
+    background-color:#6D9340;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .lightGreenContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#EFF9E3;
+    color: #000000;
+    text-align: center;
+    flex-wrap: wrap;
+    
+  }
 
 /* small  containers */
 .innerContainer {
@@ -269,3 +303,4 @@ main{
   background-color: #ffffff; /* Dark gray background on hover */
   color: #6D9340; /* White text color on hover */
 }
+
