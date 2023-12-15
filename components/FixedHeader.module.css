@@ -17,23 +17,15 @@
   }
   
   .title {
-    
     font-size:x-large;
   }
   
-  .atTop {
-    transform: translateY(0);
-  }
-
   .navigation {
     display: flex;
     float:right;
     text-align: right;
-    margin: 0;
-    
   }
 .navItem {
-   
     cursor: pointer;
     padding: 5px;
   }
