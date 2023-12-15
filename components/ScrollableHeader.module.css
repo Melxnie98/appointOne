@@ -25,7 +25,7 @@
     position: sticky;
     display: flex;
     justify-content: space-between;
-    align-items:flex-endS;
+    align-items:flex-end;
   }
   
   .logo {
@@ -34,6 +34,7 @@
     margin-bottom: 0px;
     width: 15%; /* Adjust the size of the logo as needed */
     float:left;
+    margin-right: 50px;
     
   }
   
