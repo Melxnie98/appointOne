@@ -1,4 +1,3 @@
-import styles from './ContactForm.module.css';
 import { useState } from 'react';
 
 const ContactForm = () => {
@@ -7,22 +6,47 @@ const ContactForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    // Your form submission logic goes here
-    // You can use the `fetch` API or a library like axios to send the form data to your server
-    // Remember to set isSubmitting to false after the submission is complete
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    setSubmitting(true);
+
+    try {
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      console.log("Form successfully submitted");
+      // Optionally, you can add code to handle successful submission
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      // Optionally, you can add code to handle submission failure
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
     <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
       <p>
         <label>
-          Name: <input type="text" name="name" />
-          Phone Number: <input type="text" name="number" />
+          Your Name: <input type="text" name="name" />
         </label>
       </p>
       <p>
         <label>
           Your Email: <input type="email" name="email" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Your Role:
+          <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select>
         </label>
       </p>
       <p>
