@@ -1,7 +1,4 @@
 import { useState } from 'react';
-import React from 'react';
-import { useRouter } from 'next/router';
-
 
 const ContactForm = () => {
   const [isSubmitting, setSubmitting] = useState(false);
@@ -32,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form name="ContactForm" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+    <form name="ContactForm" method="POST" data-netlify="true" action="/">
       <p>
         <label>
           Name: <input type="text" name="name" />
@@ -61,3 +58,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
