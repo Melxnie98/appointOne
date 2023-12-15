@@ -32,15 +32,15 @@ const ContactForm = () => {
     <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
       <p>
         <label>
-          Your Name: <input type="text" name="name" />
+          Name: <input type="text" name="name" />
+        </label>
+        <label>
+          Phone Number: <input type="number" name="number" />
         </label>
       </p>
       <p>
         <label>
-          Your Email: <input type="email" name="email" />
-        </label>
-        <label>
-          Phone Number: <input type="number" name="number" />
+          Email: <input type="email" name="email" />
         </label>
       </p>
       <p>
