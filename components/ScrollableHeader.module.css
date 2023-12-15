@@ -18,12 +18,14 @@
     display: none; /* Hide the burger icon by default on larger screens */
     cursor: pointer;
     font-size: 24px;
+    visibility: hidden;
+   
   }
   .headerContent {
     position: sticky;
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:flex-endS;
   }
   
   .logo {
@@ -50,22 +52,36 @@
     margin-right: 0;
   }
 /*phone*/
-/* Media query for small screens (max-width: 600px) */
+@media (min-width: 600px) {
+  .burger-icon {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 600px) {
-  .topnav a:not(.icon) {
-    display: none; /* Hide regular navigation links on small screens */
+  .navigation {
+   display: none;  /* Hide the regular navigation on small screens */
+    flex-direction: column; /* Stack items vertically */
+    position: absolute;
+    top: 60px; /* Adjust the top position based on your header height */
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  .topnav a.icon {
-    display: block; /* Display burger icon on small screens */
+  .navigation.active {
+    display: flex; /* Show the navigation when active */
   }
 
-  .topnav a.active {
-    display: block; /* Display active link on small screens */
+  .navItem {
+    width: 100%; /* Make items take full width */
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Add a border between items */
   }
 
-  .topnav #myLinks.show {
-    display: block; /* Show the dropdown menu on small screens */
+  .burger-icon {
+    display: block; /* Show the burger icon on small screens */
   }
 }
  
