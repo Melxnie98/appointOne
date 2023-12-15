@@ -14,7 +14,7 @@
     margin: 0;
   }
   .burgerIcon {
-    /*display: none;  Hide the burger icon by default on larger screens */
+    display: none;  
     cursor: pointer;
     font-size: 24px;
     visibility: hidden;
@@ -82,7 +82,8 @@
     display: block; /* Show the burger icon on small screens */
     cursor: pointer;
     font-size: 24px;
-    color: #6D9340;;
+    color: #6D9340;
+    visibility:visible;
   }
 }
  
