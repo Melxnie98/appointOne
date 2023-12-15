@@ -8,7 +8,6 @@
     width: 100%;
     z-index: 1; 
     top: 0px;
-    align-items:flex-start;
   }
   
   .title {
@@ -25,7 +24,11 @@
     position: sticky;
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+   
   }
   
   .logo {
