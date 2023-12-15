@@ -47,14 +47,14 @@
     margin-right: 0;
   }
 /*phone*/
-@media (min-width: 601px) {
+@media (min-width: 768px) {
   .burger-icon {
     display: none;
   }
 }
 @media only screen and (max-width: 768px) {
   .navigation {
-    display: none; /* Hide the regular navigation on small screens */
+    /* display: none; Hide the regular navigation on small screens */
     flex-direction: column; /* Stack items vertically */
     position: absolute;
     top: 60px; /* Adjust the top position based on your header height */
