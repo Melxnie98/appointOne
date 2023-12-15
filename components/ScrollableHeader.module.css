@@ -27,6 +27,9 @@
   }
   
   .logo {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
     width: 15%; /* Adjust the size of the logo as needed */
     float:left;
     
