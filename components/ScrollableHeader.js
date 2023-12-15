@@ -40,9 +40,8 @@ const ScrollableHeader = ({ title }) => {
         <div className={styles.navigation}>
           {/* Show burger icon only on small screens */}
           {isSmallScreen && (
-            <div className={styles.burgerIcon} onClick={toggleMenu}>
-              &#9776;
-            </div>
+            <img src="/images/menu.svg" alt="Logo"className={styles.burgerIcon} onClick={toggleMenu} </img>
+            
           )}
 
           {/* Show regular navigation items on larger screens */}
