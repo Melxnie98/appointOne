@@ -25,8 +25,10 @@ export default function Home() {
             <h2>Your Trusted Guide for Personal and Professional Growth</h2>
             <h1>Empowerment and Resolution with Claire Hurley</h1>
             <p>Welcome to Appoint One founded by Claire Hurley, a seasoned HR Professional, qualified Mediator and qualified Career Guidance Counsellor. The aim of Appoint One is to partner with individuals, families and organizations to empower them to take the next step, that is theirs to take, in the resolution of a conflict, the provision of a harmonious work culture/environment or make career decisions. </p>
-            <button className="round-button" onClick={() => navigateTo('/services')}>Our Services</button>
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
+            <div className="greenContainer">
+              <button className="round-button" onClick={() => navigateTo('/services')}>Our Services</button>
+              <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
+            </div>
           </div> 
         </div>
         <div className="cardContainer">
