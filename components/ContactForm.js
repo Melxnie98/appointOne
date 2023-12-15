@@ -22,7 +22,8 @@ const ContactForm = () => {
   
 
   return (
-    <form  name="ContactForm" method="POST" data-netlify="true" action="/" class="contact-form">
+    <div class="contact-form">
+    <form  name="ContactForm" method="POST" data-netlify="true" action="/" >
        <input type="hidden" name="form-name" value="ContactForm" />
       <p class="input-group">
         <label>
@@ -42,12 +43,13 @@ const ContactForm = () => {
           Message: <textarea name="message"></textarea>
         </label>
       </p>
-      <p>
-        <button class="submit-button" type="submit" disabled={isSubmitting}>
+      <p class="submit-button">
+        <button  type="submit" disabled={isSubmitting}>
           {isSubmitting ? 'Sending...' : 'Send'}
         </button>
       </p>
     </form>
+    </div>
   );
 };
 
