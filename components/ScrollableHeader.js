@@ -37,8 +37,6 @@ const ScrollableHeader = ({ title }) => {
       <div className={styles.navigation}>
       <div className={styles.headerContent}>
         
-        
-        
         <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
           {/* Show burger icon only on small screens */}
           {isSmallScreen && (

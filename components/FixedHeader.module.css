@@ -5,11 +5,12 @@
   width: 100%;
   right: 0;
   background-color:#6D9340;
-  justify-content: flex-end;
+  
   color: #ffffff ;
   padding: 10px;
   z-index: 1;
   display:flex;
+  align-items: flex-end;
 }
 .icons{
   height: 30px;
