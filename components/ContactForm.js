@@ -5,30 +5,21 @@ import styles from './ContactForm.module.css';
 const ContactForm = () => {
   const [isSubmitting, setSubmitting] = useState(false);
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-
+  
     const myForm = event.target;
     const formData = new FormData(myForm);
-
-    setSubmitting(true);
-
-    try {
-      await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      });
-
-      console.log("Form successfully submitted");
-      // Optionally, you can add code to handle successful submission
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      // Optionally, you can add code to handle submission failure
-    } finally {
-      setSubmitting(false);
-    }
+  
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => navigate("/thank-you/"))
+      .catch((error) => alert(error));
   };
+  
 
   return (
     <form  name="ContactForm" method="POST" data-netlify="true" action="/" class="contact-form">
