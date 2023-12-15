@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import styles from './ContactForm.module.css';
 
 
 const ContactForm = () => {
@@ -30,8 +31,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form  name="ContactForm" method="POST" data-netlify="true" action="/">
-      <p>
+    <form  name="ContactForm" method="POST" data-netlify="true" action="/" class="input-group">
+      <p class="input-group">
         <label>
           Name: <input type="text" name="name" />
         </label>
@@ -50,7 +51,7 @@ const ContactForm = () => {
         </label>
       </p>
       <p>
-        <button type="submit" disabled={isSubmitting}>
+        <button class="submit-button" type="submit" disabled={isSubmitting}>
           {isSubmitting ? 'Sending...' : 'Send'}
         </button>
       </p>
