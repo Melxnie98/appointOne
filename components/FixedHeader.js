@@ -6,9 +6,11 @@ const FixedHeader = ({ title }) => {
 
   return (
     <header className={styles.fixedHeader} >
-       <div className={styles.navigation}>
-        <img href="tel:+353834400999" src="/logos/phone.png" alt="Phone" className={styles.icons}/>
         
+       <div className={styles.navigation}>
+        <a href="tel:+353834400999">
+          <img  src="/logos/phone.png" alt="Phone" className={styles.icons}/>
+        </a>
         <img src="/logos/facebookLogo.png" alt="Facebook"  className={`${styles.navItem} ${styles.icons}`}/>
         <img src="/logos/twitterLogo.png" alt="Twitter"  className={`${styles.navItem} ${styles.icons}`}/>
         <img src="/logos/instagramLogo.png" alt="Instagram" className={`${styles.navItem} ${styles.icons}`}/>
