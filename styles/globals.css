@@ -10,16 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-/* styles/globals.css */
-/* .content {
-   margin-top: 40px;Adjust this value based on your fixed header height 
-}*/
 
-.imgs{
-  flex-shrink: 2;
-  height:60%;
-  width:60%;
-}
 
 main{
   display: flex;
@@ -27,6 +18,11 @@ main{
   margin: 0 auto; /* Center the main container */
   flex:1;
   flex-wrap: wrap;
+}
+.imgs{
+  flex-shrink: 2;
+  height:60%;
+  width:60%;
 }
 /* full width containers */
 .container {
@@ -129,7 +125,6 @@ main{
     color: #ffffff;
     text-align: center;
     width: 100%;
-    
   }
   
   .lightGreenContainer{
@@ -142,6 +137,15 @@ main{
     text-align: center;
     flex-wrap: wrap; 
   }
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex:1;
+    width:90%;
+  }
   
   
   .fiftyContainer {
@@ -149,10 +153,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     width:80%;
     color: #ffffff;
-    padding: 10px;
   }
   .fiftyGreenContainer {
     display: flex;
@@ -160,7 +162,6 @@ main{
     justify-content: center;
     align-items: center;
     width:90%;
-    padding: 10px;
     color: #000000;
   }
   .thirtyFiveContainer {
@@ -168,12 +169,10 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     width:100%;
     color: #ffffff;
   }
   .imgs{
-    
     height:90%;
     width:90%;
   }
