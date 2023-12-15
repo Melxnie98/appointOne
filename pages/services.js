@@ -56,7 +56,6 @@ const ServicesPage = () => {
             <h2>Child Inclusive Mediation</h2>
             <p>Child Inclusive Mediation prioritizes children's perspectives in parental disputes, utilizing age-appropriate methods to ensure their voices are heard. The mediator facilitates decisions that promote the child's well-being, enhancing the effectiveness of family mediation by addressing the unique needs and emotions of the children involved. </p>
           </div>
-       
         </div>
         <div className="greenContainer">
           <div className="innerContainer">
@@ -74,21 +73,19 @@ const ServicesPage = () => {
                 <li>Facilitate network events</li>
             </ul>
           </div>
-       
         </div>
         <div className="lightGreenContainer">
-          <div className="fiftyGreenContainer">
+          <div className="innerContainer">
               <p> Questions?</p>
               <h2>Call Now</h2>
               <p>Ready to take the next step? Call now and let’s embark on your journey to empowerment and resolution.</p>
               <h2>+353 (0)83 4400999</h2>
-              <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
-              
+              <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>  
           </div>
-        <div className="fiftyGreenContainer">
+          <div className="innerContainer">
             <img className="laptopImg" src="/images/AONEpc.png" alt="Team"/>
-        </div>
-    </div>
+          </div>
+       </div>
 
       </main>
       

@@ -18,7 +18,7 @@ export default function Home() {
       <main>
       
         <div className="greenContainer">
-          <div className="thirtyFiveContainer">
+          <div className="innerContainer">
           <img src="/images/team.png" alt="Team"/>
           </div>
           <div className="sixtyFiveContainer">
