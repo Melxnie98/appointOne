@@ -2,13 +2,6 @@ import { useState } from 'react';
 import React from 'react';
 import { useRouter } from 'next/router';
 
-export default function Footer() {
-  const router = useRouter();
-
-  const navigateTo = (path) => {
-    router.push(path);
-    
-  }
 
 const ContactForm = () => {
   const [isSubmitting, setSubmitting] = useState(false);
