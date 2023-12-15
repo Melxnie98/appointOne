@@ -18,6 +18,7 @@ main{
   margin: 0 auto; /* Center the main container */
   flex:1;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .imgs{
   flex-shrink: 2;
@@ -118,7 +119,7 @@ main{
   .greenContainer{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:baseline;
     align-items:flex-start;
     background-color:#6D9340;
@@ -129,7 +130,7 @@ main{
   
   .lightGreenContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:#EFF9E3;
@@ -139,7 +140,7 @@ main{
   }
   .innerContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -169,7 +170,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:70%;
     color: #ffffff;
   }
   .imgs{
