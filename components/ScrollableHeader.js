@@ -39,7 +39,7 @@ const ScrollableHeader = ({ title }) => {
           <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
             Contact Us
           </div>
-          <div className={styles.burger-icon} onClick={toggleMenu}>
+          <div className={`${styles.navItem} burger-icon`} onClick={toggleMenu}>
             &#9776;
           </div>
 
