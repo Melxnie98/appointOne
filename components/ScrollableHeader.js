@@ -6,6 +6,7 @@ import styles from './ScrollableHeader.module.css';
 const ScrollableHeader = ({ title }) => {
   const router = useRouter();
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isSmallScreen, setSmallScreen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -17,32 +18,53 @@ const ScrollableHeader = ({ title }) => {
     setMenuOpen(false);
   };
 
+  useEffect(() => {
+    // Check the screen size on initial load and on resize
+    const handleResize = () => {
+      setSmallScreen(window.innerWidth <= 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Check on initial load
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <header className={styles.scrollableHeader}>
       <div className={styles.headerContent}>
-        
-          <h1 className={styles.title}>{title}</h1>
-          <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
-          <div className={styles.navigation}>
-
-            <div className={styles.navItem} onClick={() => navigateTo('/index')}>
-              Home
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/services')}>
-              Services
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/about')}>
-              About Us
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/pricing')}>
-              Pricing
-            </div>
-            <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
-              Contact Us
-            </div>
+        <h1 className={styles.title}>{title}</h1>
+        <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
+        <div className={styles.navigation}>
+          {/* Show burger icon only on small screens */}
+          {isSmallScreen && (
             <div className={styles.burgerIcon} onClick={toggleMenu}>
               &#9776;
             </div>
+          )}
+
+          {/* Show regular navigation items on larger screens */}
+          {!isSmallScreen && (
+            <>
+              <div className={styles.navItem} onClick={() => navigateTo('/index')}>
+                Home
+              </div>
+              <div className={styles.navItem} onClick={() => navigateTo('/services')}>
+                Services
+              </div>
+              <div className={styles.navItem} onClick={() => navigateTo('/about')}>
+                About Us
+              </div>
+              <div className={styles.navItem} onClick={() => navigateTo('/pricing')}>
+                Pricing
+              </div>
+              <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
+                Contact Us
+              </div>
+            </>
+          )}
 
           {isMenuOpen && (
             <div className={styles.dropdownMenu}>
@@ -61,6 +83,3 @@ const ScrollableHeader = ({ title }) => {
 };
 
 export default ScrollableHeader;
-
-
-

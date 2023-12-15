@@ -52,11 +52,7 @@
     margin-right: 0;
   }
 /*phone*/
-@media (min-width: 600px) {
-  .burger-icon {
-    display: none;
-  }
-}
+
 
 @media only screen and (max-width: 600px) {
   .navigation {
@@ -82,6 +78,8 @@
 
   .burger-icon {
     display: block; /* Show the burger icon on small screens */
+    cursor: pointer;
+    font-size: 24px;
   }
 }
  
