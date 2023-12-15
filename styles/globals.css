@@ -166,9 +166,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 50px;
     align-items: center;
-    width:80%;
+    width:90%;
     padding: 10px;
     color: #000000;
   }
@@ -178,14 +177,13 @@ main{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width:80%;
+    width:100%;
     color: #ffffff;
-    padding: 5rem 0;
   }
   .imgs{
-    flex-shrink: 2;
-    height:80%;
-    width:80%;
+    
+    height:90%;
+    width:90%;
   }
 }
 
