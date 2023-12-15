@@ -14,7 +14,7 @@
     margin: 0;
   }
   .burger-icon {
-    display: none; /* Hide the burger icon by default on larger screens */
+    /*display: none;  Hide the burger icon by default on larger screens */
     cursor: pointer;
     font-size: 24px;
     visibility: hidden;
@@ -25,9 +25,7 @@
     display: flex;
     justify-content: space-between;
     display: flex;
-  height: 600px;
-  flex-wrap: wrap;
-  align-content: space-around;
+  
    
   }
   
