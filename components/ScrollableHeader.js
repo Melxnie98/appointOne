@@ -1,30 +1,21 @@
+// components/ScrollableHeader.js
 import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
 import styles from './ScrollableHeader.module.css';
 
 const ScrollableHeader = ({ title }) => {
   const router = useRouter();
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
 
   const navigateTo = (path) => {
     router.push(path);
+    // Close the menu after navigation (optional)
+    setMenuOpen(false);
   };
-
-  useEffect(() => {
-    // Add event listener logic here
-    const burgerIcon = document.getElementById('burgerIcon');
-    const navigation = document.querySelector(`.${styles.navigation}`);
-
-    const toggleNavigation = () => {
-      navigation.classList.toggle(`${styles.active}`);
-    };
-
-    burgerIcon.addEventListener('click', toggleNavigation);
-
-    // Cleanup the event listener when the component is unmounted
-    return () => {
-      burgerIcon.removeEventListener('click', toggleNavigation);
-    };
-  }, []); // Empty dependency array means this effect runs once when the component mounts
 
   return (
     <header className={styles.scrollableHeader}>
@@ -48,9 +39,20 @@ const ScrollableHeader = ({ title }) => {
           <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
             Contact Us
           </div>
-          <div className={`${styles.navItem} ${styles.burgerIcon}`} id="burgerIcon">
+          <div className={`${styles.navItem} burger-icon`} onClick={toggleMenu}>
             &#9776;
           </div>
+
+          {isMenuOpen && (
+            <div className={styles.dropdownMenu}>
+              {/* Dropdown menu items go here */}
+              <div onClick={() => navigateTo('/index')}>Home</div>
+              <div onClick={() => navigateTo('/services')}>Services</div>
+              <div onClick={() => navigateTo('/about')}>About Us</div>
+              <div onClick={() => navigateTo('/pricing')}>Pricing</div>
+              <div onClick={() => navigateTo('/contact')}>Contact Us</div>
+            </div>
+          )}
         </div>
       </div>
     </header>
