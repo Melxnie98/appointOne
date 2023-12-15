@@ -31,7 +31,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form  name="ContactForm" method="POST" data-netlify="true" action="/" class="input-group">
+    <form  name="ContactForm" method="POST" data-netlify="true" action="/" class="contact-form">
       <p class="input-group">
         <label>
           Name: <input type="text" name="name" />
