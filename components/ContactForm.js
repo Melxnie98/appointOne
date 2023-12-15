@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form name="ContactForm" method="POST" data-netlify="true" action="/">
+    <form name="ContactForm" method="POST" data-netlify="true" action="">
       <p>
         <label>
           Name: <input type="text" name="name" />
