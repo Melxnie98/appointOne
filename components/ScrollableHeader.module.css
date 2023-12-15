@@ -14,10 +14,10 @@
     margin: 0;
   }
   .burgerIcon {
-    display: none;  
+   
     cursor: pointer;
     font-size: 24px;
-    visibility: hidden;
+   
   }
 
   .headerContent {
@@ -58,17 +58,13 @@
 
 @media only screen and (max-width: 600px) {
   .navigation {
-   display: none;  /* Hide the regular navigation on small screens */
+    display: none;  /* Hide the regular navigation on small screens */
     flex-direction: column; /* Stack items vertically */
     position: absolute;
     top: 60px; /* Adjust the top position based on your header height */
     right: 0;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .navigation.active {
-    display: flex; /* Show the navigation when active */
   }
 
   .navItem {
