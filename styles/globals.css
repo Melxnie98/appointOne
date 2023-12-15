@@ -107,6 +107,14 @@ main{
   flex-wrap: wrap;
 }
 @media (max-width: 600px) {
+  main{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto; /* Center the main container */
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   .contentContainer{
     display: flex;
     flex-direction: column;
