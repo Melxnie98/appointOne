@@ -7,6 +7,11 @@ import ScrollableHeader from '@components/ScrollableHeader';
 
 
 export default function Home() {
+  const router = useRouter();
+  
+  const navigateTo = (path) => {
+    router.push(path);
+  }
   return (
     <div className="container">
       <Head>
