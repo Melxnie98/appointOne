@@ -50,13 +50,13 @@
     margin-right: 0;
   }
 /*phone*/
-@media (min-width: 768px) {
+@media (maxS-width: 768px) {
   .burger-icon {
     display: none;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .navigation {
    display: none;  /* Hide the regular navigation on small screens */
     flex-direction: column; /* Stack items vertically */
@@ -72,7 +72,6 @@
   }
 
   .navItem {
-    display: none;
     width: 100%; /* Make items take full width */
     text-align: center;
     padding: 10px;
