@@ -20,28 +20,29 @@ const ScrollableHeader = ({ title }) => {
   return (
     <header className={styles.scrollableHeader}>
       <div className={styles.headerContent}>
-        <div className={styles.navigation}>
+        
           <h1 className={styles.title}>{title}</h1>
           <img src="/images/HeadImg.png" alt="Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
+          <div className={styles.navigation}>
 
-          <div className={styles.navItem} onClick={() => navigateTo('/index')}>
-            Home
-          </div>
-          <div className={styles.navItem} onClick={() => navigateTo('/services')}>
-            Services
-          </div>
-          <div className={styles.navItem} onClick={() => navigateTo('/about')}>
-            About Us
-          </div>
-          <div className={styles.navItem} onClick={() => navigateTo('/pricing')}>
-            Pricing
-          </div>
-          <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
-            Contact Us
-          </div>
-          <div className={`${styles.navItem} burger-icon`} onClick={toggleMenu}>
-            &#9776;
-          </div>
+            <div className={styles.navItem} onClick={() => navigateTo('/index')}>
+              Home
+            </div>
+            <div className={styles.navItem} onClick={() => navigateTo('/services')}>
+              Services
+            </div>
+            <div className={styles.navItem} onClick={() => navigateTo('/about')}>
+              About Us
+            </div>
+            <div className={styles.navItem} onClick={() => navigateTo('/pricing')}>
+              Pricing
+            </div>
+            <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
+              Contact Us
+            </div>
+            <div className={`${styles.navItem} burger-icon`} onClick={toggleMenu}>
+              &#9776;
+            </div>
 
           {isMenuOpen && (
             <div className={styles.dropdownMenu}>

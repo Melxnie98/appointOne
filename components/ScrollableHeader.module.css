@@ -50,13 +50,13 @@
     margin-right: 0;
   }
 /*phone*/
-@media (maxS-width: 768px) {
+@media (min-width: 768px) {
   .burger-icon {
     display: none;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .navigation {
    display: none;  /* Hide the regular navigation on small screens */
     flex-direction: column; /* Stack items vertically */
