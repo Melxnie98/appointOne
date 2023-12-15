@@ -17,7 +17,7 @@
   }
   
   .title {
-    margin-right: 0;
+    
     font-size:x-large;
   }
   
@@ -29,6 +29,7 @@
     display: flex;
     float:right;
     text-align: right;
+    margin: 0;
     
   }
 .navItem {
