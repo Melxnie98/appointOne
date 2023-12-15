@@ -118,7 +118,7 @@ main{
   .greenContainer{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:baseline;
     align-items:flex-start;
     background-color:#6D9340;
@@ -129,7 +129,7 @@ main{
   
   .lightGreenContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color:#EFF9E3;
@@ -139,7 +139,7 @@ main{
   }
   .innerContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
