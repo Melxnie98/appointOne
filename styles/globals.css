@@ -142,15 +142,7 @@ main{
     text-align: center;
     flex-wrap: wrap; 
   }
-  .innerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex:1;
-    width:80%;
-  }
+  
   
   .fiftyContainer {
     display: flex;
@@ -185,6 +177,15 @@ main{
     height:90%;
     width:90%;
   }
+  .servicesContainer{
+    display: flex;
+    background: url('/images/AONEpc.png') center/cover no-repeat; /* Set your image path and adjust properties as needed */
+    /* Adjust the alpha (transparency) value as needed */
+    background-color: rgba(255, 255, 255, 0.4);
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
 }
 
 /* small  containers */
