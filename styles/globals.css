@@ -169,12 +169,12 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:500%;
     color: #ffffff;
   }
   .imgs{
-    height:90%;
-    width:90%;
+    height:50%;
+    width:50%;
   }
   .servicesContainer{
     display: flex;
