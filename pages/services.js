@@ -83,7 +83,7 @@ const ServicesPage = () => {
               <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>  
           </div>
           <div className="innerContainer">
-            <img className="laptopImg" src="/images/AONEpc.png" alt="Team"/>
+            <img className="imgs" src="/images/AONEpc.png" alt="Team"/>
           </div>
        </div>
 

@@ -17,8 +17,8 @@ body {
 
 .imgs{
   flex-shrink: 2;
-  height:50%;
-  width:50%;
+  height:60%;
+  width:60%;
 }
 
 main{
@@ -148,7 +148,7 @@ main{
     text-align: center;
     align-items: center;
     flex:1;
-    width:60%;
+    width:80%;
   }
   
   .fiftyContainer {
@@ -171,6 +171,21 @@ main{
     padding: 10px;
     color: #000000;
   }
+  .thirtyFiveContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width:80%;
+    color: #ffffff;
+    padding: 5rem 0;
+  }
+  .imgs{
+    flex-shrink: 2;
+    height:80%;
+    width:80%;
+  }
 }
 
 /* small  containers */
@@ -188,8 +203,6 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  padding: 10px;
   width:45%;
   color: #ffffff;
   padding: 10px;
@@ -259,10 +272,7 @@ main{
   padding: 10px;
   color: #000000;
 }
-.laptopImg{
-  width:60%;
-  height:60%;
-}
+
 
 /*buttons round */
 .round-button {
@@ -295,13 +305,6 @@ main{
   color: white; /* White text color on hover */
 }
 
-
-
-
-.greenFont{
-  color: #6D9340;
-}
-
 /* CSS */
 .green-button {
   appearance: none;
@@ -328,9 +331,11 @@ main{
   white-space: nowrap;
 }
 
-
 .green-button:hover {
   background-color: #ffffff; /* Dark gray background on hover */
   color: #6D9340; /* White text color on hover */
 }
 
+.greenFont{
+  color: #6D9340;
+}
