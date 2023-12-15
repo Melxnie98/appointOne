@@ -3,7 +3,7 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import ScrollableHeader from '@components/ScrollableHeader';
 import ContactForm from '../components/ContactForm';
-import styles from '../components//ContactForm.module.css';
+import styles from '../components/ContactForm.module.css';
 
 const ContactPage = () => {
   return (
