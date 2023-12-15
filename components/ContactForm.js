@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
   const [isSubmitting, setSubmitting] = useState(false);
@@ -29,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form name="ContactForm" method="POST" data-netlify="true" action="">
+    <form className={styles.contact-form} name="ContactForm" method="POST" data-netlify="true" action="">
       <p>
         <label>
           Name: <input type="text" name="name" />
