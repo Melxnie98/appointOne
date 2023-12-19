@@ -17,12 +17,9 @@ export default function Footer() {
           <p>At Appoint One, we’re your partners in personal and professional growth. With compassion, integrity, and empathy as our cornerstones, we guide you through career complexities, resolve challenges, and optimize HR strategies, all with expertise and care.</p>
         </div>
         <div className={styles.across}  >
-          <h1>Quick Links</h1>
-          <div className={styles.nav} onClick={() => navigateTo('/index')}>Home</div>
-          <div className={styles.nav} onClick={() => navigateTo('/services')}>Services</div>
-          <div className={styles.nav} onClick={() => navigateTo('/about')}>About Us</div>
-          <div className={styles.nav} onClick={() => navigateTo('/commitment')}>Our Commitment</div>
-          <div className={styles.nav} onClick={() => navigateTo('/contact')}>Contact Us</div>
+          <h1>Book an appointment</h1>
+          <div className={styles.nav} onClick={() => navigateTo('/contact')}>contact</div>
+         
         </div>
         <div className={styles.across} >
           <h1>Contact us</h1>
