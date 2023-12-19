@@ -96,7 +96,6 @@ main {
     padding: 2%;
     top: 0%;
     flex-direction: column;
-    justify-content: center;
     
   }
 
@@ -111,7 +110,6 @@ main {
     padding: 2%;
     top: 0%;
     flex-direction: column;
-    justify-content: center;
   }
 
   .servicesContainer {
@@ -130,7 +128,6 @@ main {
 .fiftyGreenContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   
 }
