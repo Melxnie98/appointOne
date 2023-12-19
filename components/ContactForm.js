@@ -38,18 +38,18 @@ const ContactForm = () => {
       >
         <input type="hidden" name="form-name" value="ContactForm" />
         <p className={styles['input-group']}>
-          <label>
+          <label className={styles['label']}>
             Name: <input type="text" name="name" />
           </label>
-          <label>
+          <label className={styles['label']}>
             Phone Number: <input type="number" name="number" />
           </label>
-          <label>
+          <label className={styles['label']}>
             Email: <input type="email" name="email" />
           </label>
         </p>
         <p className={styles['input-group']}>
-          <label>
+          <label className={styles['label']}>
             Message: <textarea name="message"></textarea>
           </label>
         </p>
