@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { navigate } from 'gatsby'; // Import navigate from Gatsby
+import { useRouter } from 'next/router';
 import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
+  const router = useRouter();
   const [isSubmitting, setSubmitting] = useState(false);
 
   const handleSubmit = async (event) => {
@@ -18,8 +19,8 @@ const ContactForm = () => {
         body: new URLSearchParams(formData).toString(),
       });
 
-      // Assuming navigate is used for client-side navigation
-      navigate('/thank-you/');
+      // Use router.push for client-side navigation
+      router.push('/thank-you/');
     } catch (error) {
       console.error('Error submitting form:', error);
       // Handle error, show an alert, etc.
