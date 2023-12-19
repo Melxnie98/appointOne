@@ -70,9 +70,9 @@ const ScrollableHeader = ({ title }) => {
               {/* Dropdown menu items go here */}
               <div onClick={() => navigateTo('/index')}>Home</div>
               <div onClick={() => navigateTo('/services')}>Services</div>
-              <div onClick={() => navigateTo('/about')}>About Us</div>
+              <div onClick={() => navigateTo('/about')}>About</div>
               <div onClick={() => navigateTo('/commitment')}>Our Commitment</div>
-              <div onClick={() => navigateTo('/contact')}>Contact Us</div>
+              <div onClick={() => navigateTo('/contact')}>Contact</div>
             </div>
           )}
         </div>
