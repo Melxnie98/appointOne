@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import ScrollableHeader from '@components/ScrollableHeader';
 
 
-const ServicesPage = () => {
+const MediationPage = () => {
   return (
     <div className="container">
       <Head>
@@ -19,7 +19,7 @@ const ServicesPage = () => {
       <div className="servicesContainer">
         <div className="overlay">
             <div className="fiftyContainer">
-                <h1>Unlocking Opportunities</h1>     
+                <h1>Mediation Services</h1>     
                 <h2>Explore the Range of Services at Appoint One</h2>
                 <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. 
                     Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p> 
@@ -48,11 +48,6 @@ const ServicesPage = () => {
           <div className="contentContainer">
           <div className="innerContainer">
             <h2>Divorce Mediation</h2>
-            <button className="round-button" onClick={() => navigateTo('/mediation')}>mediation</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Workplace Relations</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Career Councelling</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Facilitation</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Employee Support</button>  
             <p>A subset of family mediation, divorce mediators specifically focus on helping couples navigate the divorce process, including the division of assets, child custody arrangements, and support issues, all while promoting amicable solutions.</p>
           </div>
           <div className="innerContainer">
