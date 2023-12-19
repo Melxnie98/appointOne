@@ -22,7 +22,7 @@ export default function Home() {
 
       <main>
         <div className="greenContainer">
-          <img className=" innerContainer" src="/images/team.png" alt="Team"/>
+          <img className="innerContainer" src="/images/team.png" alt="Team"/>
           <div className="sixtyFiveContainer">
             <h2>Your Trusted Guide for Personal and Professional Growth</h2>
             <h1>Empowerment and Resolution with Claire Hurley</h1>

@@ -92,6 +92,7 @@ main {
   .thirtyFiveContainer,
   .imgs {
     width: 100%;
+    flex-direction: column;
   }
 
   .innerContainer,
