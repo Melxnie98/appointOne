@@ -22,8 +22,8 @@ const ContactForm = () => {
   
 
   return (
-    <div className={styles.contact-form}>
-    <form  name="ContactForm" method="POST" data-netlify="true" action="/" >
+  
+    <form className={styles.contact-form} name="ContactForm" method="POST" data-netlify="true" action="/" >
        <input type="hidden" name="form-name" value="ContactForm" />
       <p className={styles.input-group}>
         <label>
@@ -49,7 +49,7 @@ const ContactForm = () => {
         </button>
       </p>
     </form>
-    </div>
+ 
   );
 };
 
