@@ -26,9 +26,8 @@
 
 .navigation {
   display: flex;
-  float:right;
-  text-align: right;
-  align-items: flex-end;
+  
+  justify-content: flex-end;
 }
 .navItem {
   cursor: pointer;
