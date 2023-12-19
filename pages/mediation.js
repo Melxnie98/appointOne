@@ -32,21 +32,16 @@ const MediationPage = () => {
         <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
       </div>
       <h2>Available for all mediation needs with particular focus on:</h2>
-      Workplace meditation
-
-Family mediation
-
-Separating/Divorce Couples mediation
-
-Child Inclusive Mediation
-
-Group/team mediation
-
-Community mediation
-      
-
+     
+            <ul>
+                <li>Workplace meditation </li>
+                <li>Family mediation</li>
+                <li>Separating/Divorce Couples mediation</li>
+                <li>Child Inclusive Mediation</li>
+                <li>Group/team mediation</li>
+                <li>Community mediation</li>
+            </ul>
       </main>
-      
     </div>
   );
 };
