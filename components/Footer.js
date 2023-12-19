@@ -21,7 +21,7 @@ export default function Footer() {
           <div className={styles.nav} onClick={() => navigateTo('/index')}>Home</div>
           <div className={styles.nav} onClick={() => navigateTo('/services')}>Services</div>
           <div className={styles.nav} onClick={() => navigateTo('/about')}>About Us</div>
-          <div className={styles.nav} onClick={() => navigateTo('/pricing')}>Pricing</div>
+          <div className={styles.nav} onClick={() => navigateTo('/commitment')}>Our Commitment</div>
           <div className={styles.nav} onClick={() => navigateTo('/contact')}>Contact Us</div>
         </div>
         <div className={styles.across} >

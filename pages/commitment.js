@@ -3,12 +3,12 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import ScrollableHeader from '@components/ScrollableHeader';
 
-const PricingPage = () => {
+const CommitmentPage = () => {
   return (
     <div className="container">
 
       <Head>
-        <title>Pricing - Appoint one</title>
+        <title>Our Commitment - Appoint one</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
@@ -39,4 +39,4 @@ const PricingPage = () => {
   );
 };
 
-export default PricingPage;
+export default CommitmentPage;

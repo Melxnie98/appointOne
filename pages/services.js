@@ -33,8 +33,9 @@ const ServicesPage = () => {
         <p>Claire is an accredited mediator with the Mediators Institute Ireland. The practice of Appoint one is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
         <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
       </div>
+      <h2>Available for all mediation needs with particular focus on:</h2>
       <div className="contentContainer">
-        <h2>Available for all mediation needs with particular focus on:</h2>
+        
         <div className="innerContainer">
             <h2>Community Mediation</h2>
             <p>Community mediation fosters harmony by addressing local conflicts through facilitated dialogue. Mediators identify issues and guide parties toward collaborative solutions, promoting community well-being. This process enhances local resilience and fosters connected, vibrant communities.</p>
