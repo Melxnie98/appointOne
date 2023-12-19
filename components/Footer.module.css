@@ -17,11 +17,14 @@
   margin: 5px;
 }
 .across {
-  display: flex;
-  float:right;
-  text-align: right;
-  align-items: flex-end;
   flex: 1;
+  width: 30%;
+  margin: 2%;
+  top: 0%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 @media (max-width: 600px) {

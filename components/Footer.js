@@ -12,11 +12,11 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
 
-        <div className="innerContainer" >
+        <div className={styles.across} >
           <img src="/images/HeadImg.png" alt="Appoint One Logo" className={styles.logo} />
           <p>At Appoint One, we’re your partners in personal and professional growth. With compassion, integrity, and empathy as our cornerstones, we guide you through career complexities, resolve challenges, and optimize HR strategies, all with expertise and care.</p>
         </div>
-        <div className="innerContainer" >
+        <div className={styles.across}  >
           <h1>Quick Links</h1>
           <div className={styles.nav} onClick={() => navigateTo('/index')}>Home</div>
           <div className={styles.nav} onClick={() => navigateTo('/services')}>Services</div>
@@ -24,7 +24,7 @@ export default function Footer() {
           <div className={styles.nav} onClick={() => navigateTo('/pricing')}>Pricing</div>
           <div className={styles.nav} onClick={() => navigateTo('/contact')}>Contact Us</div>
         </div>
-        <div className="innerContainer" >
+        <div className={styles.across} >
           <h1>Contact us</h1>
           <p>1 UPPER EAST HILL COBH, CO.CORK P24 XA61</p>
           <p>+353 (0)83 4400999</p>
