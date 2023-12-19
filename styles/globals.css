@@ -31,7 +31,6 @@ main {
 /* Full Width Containers */
 .container,
 .greenContainer,
-.wrapGreenContainer,
 .lightGreenContainer,
 .contentContainer,
 .overlay,
@@ -44,7 +43,7 @@ main {
   align-items: center;
   width: 100%;
 }
-.wrapGreenContainer,
+
 .greenContainer {
   background-color: #6d9340;
   color: #ffffff;
@@ -84,7 +83,8 @@ main {
     flex-direction: column;
   }
 
-  .wrapGreenContainer,
+  .contentContainer,
+  .greenContainer,
   .lightGreenContainer,
   .fiftyContainer,
   .fiftyContainerBlackFont,
@@ -93,7 +93,7 @@ main {
   .imgs {
     flex: 1;
     width: 100%;
-    padding: 2%;
+    margin: 2%;
     top: 0%;
     flex-direction: column;
     justify-content: center;
@@ -158,11 +158,11 @@ main {
 
 .sixtyFiveContainer {
   width: 55%;
-  padding: 10px;
+  padding: 2px;
 }
 
 .greensquare {
-  padding: 50px 50px 0 0;
+  padding: 30px 30px 0 0;
   width: 100px;
   height: 100px;
   background-color: #6d9340;
