@@ -41,13 +41,9 @@ const ServicesPage = () => {
       <h2>Available for all mediation needs with particular focus on:</h2>
       <div className="contentContainer">
         
+      
         <div className="innerContainer">
-            <h2>Community Mediation</h2>
-            <p>Community mediation fosters harmony by addressing local conflicts through facilitated dialogue. Mediators identify issues and guide parties toward collaborative solutions, promoting community well-being. This process enhances local resilience and fosters connected, vibrant communities.</p>
-        </div>
-        <div className="innerContainer">
-            <h2>Family Mediation</h2>
-            <p>Family mediators work with individuals and families to resolve conflicts related to divorce, child custody and visitation, spousal support, property division, and other family matters. Family mediation aims to minimize the emotional and financial stress associated with family disputes.</p>
+        <button className="round-button" onClick={() => navigateTo('/contact')}>Employee Support</button> 
         </div>
     </div>
           <div className="contentContainer">
@@ -70,7 +66,7 @@ const ServicesPage = () => {
           </div>
           <div className="innerContainer">
           <button className="round-button" onClick={() => navigateTo('/contact')}>Facilitation</button>  
-          <button className="round-button" onClick={() => navigateTo('/contact')}>Employee Support</button>  
+           
           </div>
         </div>
         <div className="greenContainer">
