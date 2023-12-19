@@ -16,7 +16,6 @@ const MediationPage = () => {
 
       <main>
      
-      <h2>Available for all mediation needs with particular focus on:</h2>
       <div className="servicesContainer">
         <div className="overlay">
             <div className="fiftyContainer">
