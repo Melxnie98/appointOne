@@ -9,7 +9,7 @@
   padding: 10px;
   z-index: 1;
   display:flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 .icons{
   height: 30px;
@@ -26,11 +26,11 @@
 
 .navigation {
   display: flex;
-  
   justify-content: flex-end;
 }
 .navItem {
   cursor: pointer;
   padding: 5px;
+  justify-content: flex-end;
 }
   
