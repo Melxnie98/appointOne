@@ -40,4 +40,12 @@
     background-color: #eaeaea;
     flex-wrap: wrap;
   }
+  .across {
+    flex: 1;
+    width: 80%;
+    margin: 2%;
+    top: 0%;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
