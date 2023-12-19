@@ -107,7 +107,7 @@ main {
   .thirtyFiveContainer,
   .fiftyGreenContainer {
     flex: 1;
-    width: 100%;
+    width: 250%;
     padding: 2%;
     top: 0%;
     flex-direction: column;
