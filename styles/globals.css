@@ -103,7 +103,12 @@ main {
   .fiftyContainerBgPhoto,
   .thirtyFiveContainer,
   .fiftyGreenContainer {
-    margin: 5%;
+    flex: 1;
+    width: 80%;
+    margin: 2%;
+    top: 0%;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .servicesContainer {
