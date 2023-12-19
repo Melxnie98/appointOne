@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="greenContainer">
+        <div className="wrapGreenContainer">
           <img className="innerContainer" src="/images/team.png" alt="Team"/>
           <div className="sixtyFiveContainer">
             <h2>Your Trusted Guide for Personal and Professional Growth</h2>

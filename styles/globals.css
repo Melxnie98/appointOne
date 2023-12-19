@@ -31,6 +31,7 @@ main {
 /* Full Width Containers */
 .container,
 .greenContainer,
+.wrapGreenContainer,
 .lightGreenContainer,
 .contentContainer,
 .overlay,
@@ -43,7 +44,7 @@ main {
   align-items: center;
   width: 100%;
 }
-
+.wrapGreenContainer,
 .greenContainer {
   background-color: #6d9340;
   color: #ffffff;
@@ -83,8 +84,7 @@ main {
     flex-direction: column;
   }
 
-  .contentContainer,
-  .greenContainer,
+  .wrapGreenContainer,
   .lightGreenContainer,
   .fiftyContainer,
   .fiftyContainerBlackFont,
