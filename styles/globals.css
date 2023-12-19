@@ -93,7 +93,7 @@ main {
   .imgs {
     flex: 1;
     width: 100%;
-    margin: 2%;
+    padding: 2%;
     top: 0%;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +108,7 @@ main {
   .fiftyGreenContainer {
     flex: 1;
     width: 100%;
-    margin: 2%;
+    padding: 2%;
     top: 0%;
     flex-direction: column;
     justify-content: center;
@@ -138,7 +138,7 @@ main {
 .innerContainer {
   flex: 1;
   width: 30%;
-  margin: 2%;
+  padding: 2%;
   top: 0%;
 }
 
@@ -162,7 +162,7 @@ main {
 }
 
 .greensquare {
-  margin: 50px 50px 0 0;
+  padding: 50px 50px 0 0;
   width: 100px;
   height: 100px;
   background-color: #6d9340;
