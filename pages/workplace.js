@@ -17,7 +17,15 @@ const workplacePage = () => {
       <main>
 
       <div className="innerContainer">
-            <h2>Workplace Relations</h2>
+      <div className="servicesContainer">
+        <div className="overlay">
+            <div className="fiftyContainer">
+                <h1>Workplace Relations</h1>     
+                <button className="green-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+            </div>
+        </div>
+      </div>
+         
             Appoint One provides guidance and expertise to facilitate positive interactions and effective communication within the workplace. The aim is to create a harmonious work environment by helping resolve conflicts, address grievances, and promote a culture of mutual respect and understanding. Support includes advising on HR policies, conducting conflict resolution workshops, and offering assistance in navigating employment-related issues, ultimately fostering a more collaborative and productive workplace.
             HR Consultation and Delivery on ……..
             <ul>
