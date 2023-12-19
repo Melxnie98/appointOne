@@ -44,13 +44,11 @@ const ContactForm = () => {
           <label>
             Phone Number: <input type="number" name="number" />
           </label>
-        </p>
-        <p>
           <label>
             Email: <input type="email" name="email" />
           </label>
         </p>
-        <p>
+        <p className={styles['input-group']}>
           <label>
             Message: <textarea name="message"></textarea>
           </label>
