@@ -61,11 +61,17 @@ main {
   pointer-events: none;
 }
 
-.servicesContainer,
-.cardContainer,
-.headerCardContainer {
+.servicesContainer {
   background-position: center/cover no-repeat;
   background-color: rgba(255, 255, 255, 0.4);
+}
+.cardContainer,
+.headerCardContainer {
+  display: flex;
+  background: url('/images/AONE-STATIONERY.png') center/cover no-repeat; /* Set your image path and adjust properties as needed */
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 /* Media Query - Small Screens */
