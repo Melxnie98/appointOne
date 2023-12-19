@@ -54,13 +54,13 @@ const ScrollableHeader = ({ title }) => {
                 Services
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/about')}>
-                About Us
+                About 
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/commitment')}>
                 Our Commitment
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
-                Contact Us
+                Contact 
               </div>
             </>
           )}
