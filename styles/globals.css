@@ -86,10 +86,6 @@ main {
   .contentContainer,
   .greenContainer,
   .lightGreenContainer,
-  .fiftyContainer,
-  .fiftyContainerBlackFont,
-  .fiftyContainerBgPhoto,
-  .thirtyFiveContainer,
   .imgs {
     flex: 1;
     width: 100%;
@@ -110,6 +106,7 @@ main {
     padding: 2%;
     top: 0%;
     flex-direction: column;
+    margin:0;
   }
 
   .servicesContainer {
