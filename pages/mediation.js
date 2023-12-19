@@ -101,4 +101,4 @@ const MediationPage = () => {
   );
 };
 
-export default ServicesPage;
+export default MediationPage;

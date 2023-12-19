@@ -54,25 +54,23 @@ const ServicesPage = () => {
           <div className="innerContainer">
             <h2>Divorce Mediation</h2>
             <button className="round-button" onClick={() => navigateTo('/mediation')}>mediation</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Workplace Relations</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Career Councelling</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Facilitation</button>  
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Employee Support</button>  
-            <p>A subset of family mediation, divorce mediators specifically focus on helping couples navigate the divorce process, including the division of assets, child custody arrangements, and support issues, all while promoting amicable solutions.</p>
+           
+            
+            
+            
+    
           </div>
           <div className="innerContainer">
-            <h2>Workplace Mediation</h2>
-            <p>Workplace mediators assist in resolving conflicts within a professional setting. This can include disputes between employees, management and staff, or labour and management in a unionized environment. Workplace mediation can help improve workplace relationships and productivity.</p>
+          <button className="round-button" onClick={() => navigateTo('/contact')}>Workplace Relations</button>  
           </div>
         </div> 
         <div className="contentContainer">
           <div className="innerContainer">
-            <h2>Group/team Mediation</h2>
-            <p>Group/team mediation cultivates communication, resolves conflicts, and fortifies team synergy. The mediator identifies issues, facilitates agreements, fostering productivity, and preventing future conflicts for a cohesive team environment.</p>
+          <button className="round-button" onClick={() => navigateTo('/contact')}>Career Councelling</button>  
           </div>
           <div className="innerContainer">
-            <h2>Child Inclusive Mediation</h2>
-            <p>Child Inclusive Mediation prioritizes children's perspectives in parental disputes, utilizing age-appropriate methods to ensure their voices are heard. The mediator facilitates decisions that promote the child's well-being, enhancing the effectiveness of family mediation by addressing the unique needs and emotions of the children involved. </p>
+          <button className="round-button" onClick={() => navigateTo('/contact')}>Facilitation</button>  
+          <button className="round-button" onClick={() => navigateTo('/contact')}>Employee Support</button>  
           </div>
         </div>
         <div className="greenContainer">
