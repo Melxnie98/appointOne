@@ -27,4 +27,4 @@ const workplacePage = () => {
   );
 };
 
-export default WorkplacePage;
+export default workplacePage;
