@@ -59,18 +59,7 @@ const ScrollableHeader = ({ title }) => {
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/services')}>
                 Services
-                {isDropdownVisible && (
-                  <div className={styles.dropdownContent}>
-                    {/* Dropdown items */}
-                    <div onClick={() => navigateTo('/councelling')}>Career Councelling</div>
-                    <div onClick={() => navigateTo('/employeeSupport')}>Employee Support</div>
-                    <div onClick={() => navigateTo('/facillitation')}>Facillitation</div>
-                    <div onClick={() => navigateTo('/mediation')}>Mediation</div>
-                    <div onClick={() => navigateTo('/workplace')}>Workplace Relations</div>
-                    
-                    {/* Add more dropdown items as needed */}
-                  </div>
-        )}
+               
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/about')}>
                 About 
