@@ -6,6 +6,11 @@ import ScrollableHeader from '@components/ScrollableHeader';
 
 
 const councellingPage = () => {
+    const router = useRouter();
+  
+    const navigateTo = (path) => {
+      router.push(path);
+    }
   return (
     <div className="container">
       <Head>

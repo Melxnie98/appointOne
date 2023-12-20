@@ -6,6 +6,11 @@ import ScrollableHeader from '@components/ScrollableHeader';
 
 
 const FacilitationPage = () => {
+    const router = useRouter();
+  
+    const navigateTo = (path) => {
+      router.push(path);
+    }
   return (
     <div className="container">
       <Head>

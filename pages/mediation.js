@@ -6,6 +6,11 @@ import ScrollableHeader from '@components/ScrollableHeader';
 
 
 const MediationPage = () => {
+    const router = useRouter();
+  
+    const navigateTo = (path) => {
+      router.push(path);
+    }
   return (
     <div className="container">
       <Head>

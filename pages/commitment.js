@@ -4,6 +4,11 @@ import Head from 'next/head'
 import ScrollableHeader from '@components/ScrollableHeader';
 
 const CommitmentPage = () => {
+  const router = useRouter();
+  
+    const navigateTo = (path) => {
+      router.push(path);
+    }
   return (
     <div className="container">
 
