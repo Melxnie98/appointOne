@@ -79,9 +79,9 @@ export default function Home() {
           <div className="fiftyContainerBlackFont">
               <h3>Schedule A Free Consultation</h3>
               Email us for more information and one of our counselors will call you to go over our programs.
-              <div className="greenContainer">
-              <button className="round-button" onClick={() => navigateTo('/services')}>Our Services</button>
-              <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
+              <div className="contentContainer">
+              <button className="green-button" onClick={() => navigateTo('/services')}>Our Services</button>
+              <button className="green-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
             </div> 
           </div>
         

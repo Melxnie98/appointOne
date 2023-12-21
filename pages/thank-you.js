@@ -20,7 +20,6 @@ const ThanksPage = () => {
       </Head>
 
       <main>
-      
         <div className="servicesContainer">
             <div className="overlay">
                 <div className="fiftyContainer">
@@ -31,7 +30,6 @@ const ThanksPage = () => {
             </div>
         </div>
       </main>
-      
     </div>
   );
 };
