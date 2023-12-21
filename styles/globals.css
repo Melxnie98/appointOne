@@ -42,7 +42,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .greenContainer {
@@ -126,7 +126,7 @@ main {
 .thirtyFiveContainer,
 .fiftyGreenContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   
   
