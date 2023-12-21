@@ -76,10 +76,14 @@ export default function Home() {
           Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.
 
           </div>
-          <div className="fiftyContainerBgPhoto">
-            <div className="greenSquare">
-              Schedule A Free Consultation
+          <div className="fiftyContainerBlackFont">
+              <h3>Schedule A Free Consultation</h3>
               Email us for more information and one of our counselors will call you to go over our programs.
+              <div className="greenContainer">
+              <button className="round-button" onClick={() => navigateTo('/services')}>Our Services</button>
+              <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
+            </div>
+              
             </div>
           </div>
         
