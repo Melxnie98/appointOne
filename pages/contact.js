@@ -4,6 +4,7 @@ import Head from 'next/head'
 import ScrollableHeader from '@components/ScrollableHeader';
 import ContactForm from '../components/ContactForm';
 import styles from '../components/ContactForm.module.css';
+import { useRouter } from 'next/router';
 
 const ContactPage = () => {
   const router = useRouter();
