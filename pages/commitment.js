@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '@components/Footer'
 import Head from 'next/head'
 import ScrollableHeader from '@components/ScrollableHeader';
+import { useRouter } from 'next/router';
 
 const CommitmentPage = () => {
   const router = useRouter();
