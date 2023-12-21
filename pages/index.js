@@ -82,9 +82,7 @@ export default function Home() {
               <div className="greenContainer">
               <button className="round-button" onClick={() => navigateTo('/services')}>Our Services</button>
               <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
-            </div>
-              
-            
+            </div> 
           </div>
         
         </div>
