@@ -57,7 +57,7 @@
     /*display: none;  Hide the regular navigation on small screens */
     flex-direction: column; /* Stack items vertically */
     position: absolute;
-    /*top: 10px;  Adjust the top position based on your header height */
+    top: 10px; /* Adjust the top position based on your header height */
     right: 0;
     width:100%;
     background-color: #ffffff;
