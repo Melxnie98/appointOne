@@ -52,6 +52,8 @@ export default function Home() {
             <h2>Compassion and Empathy</h2>
             <p>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
           </div>
+          </div>
+          <div className="greenContainer">
         
           <div className="innerContainer">
             <h2>Integrity and Transparency</h2>
