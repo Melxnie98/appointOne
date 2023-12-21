@@ -79,9 +79,6 @@ main {
 
 /* Media Query - Small Screens */
 @media (max-width: 600px) {
-  main {
-    flex-direction: column;
-  }
 
   .contentContainer,
   .greenContainer,
@@ -89,7 +86,7 @@ main {
   .imgs {
     flex: 1;
     width: 100%;
-    padding: 2%;
+    padding: 5px;
     top: 0%;
     flex-direction: column;
     
@@ -103,7 +100,7 @@ main {
   .fiftyGreenContainer {
     flex: 1;
     width: 250%;
-    padding: 2%;
+    padding: 5px;
     top: 0%;
     flex-direction: column;
     margin:0;
