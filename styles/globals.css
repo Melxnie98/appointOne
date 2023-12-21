@@ -42,7 +42,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .greenContainer {
@@ -106,7 +106,7 @@ main {
     flex: 1;
     width: 250%;
     padding: 5px;
-    flex-direction: column;
+    flex-direction: row;
     margin:0;
     box-sizing: border-box;
     text-align: center;
