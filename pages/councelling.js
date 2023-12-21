@@ -64,7 +64,7 @@ const councellingPage = () => {
         </div> 
         <div className="contentContainer">
             <div className="innerContainer">
-                <button className="round-button" onClick={() => navigateTo('/workplace')}>workplace Relations</button>  
+                <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations</button>  
             </div>
             <div className="innerContainer">
                 <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  

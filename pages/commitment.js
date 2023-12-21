@@ -24,7 +24,7 @@ const CommitmentPage = () => {
       <div className="headerCardContainer">
         <div className="overlay">
           <div className="fiftyContainer">
-          <h1>Pricing</h1>
+          <h1>Our Commitment</h1>
           </div>
         </div>
       </div>
