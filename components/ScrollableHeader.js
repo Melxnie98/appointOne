@@ -53,15 +53,6 @@ const ScrollableHeader = ({ title }) => {
               <div className={styles.navItem} onClick={() => navigateTo('/services')}>
                 Services
               </div>
-              <div className={styles.dropdown}>
-                <button className={styles.dropbtn}>Services
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div className={styles.dropdown-content}>
-                  <div onClick={() => navigateTo('/employeeSupport')}>Employee Support</div> 
-                  
-                </div>
-              </div> 
               <div className={styles.navItem} onClick={() => navigateTo('/about')}>
                 About 
               </div>

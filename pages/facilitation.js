@@ -33,6 +33,22 @@ const FacilitationPage = () => {
                 <li>Facilitate network events</li>
             </ul>
           </div>
+          <div className="contentContainer">
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>  
+                </div>
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button>  
+                </div>
+            </div> 
+            <div className="contentContainer">
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
+                </div>
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations</button>  
+                </div>
+            </div>
         
       
 

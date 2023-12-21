@@ -30,14 +30,30 @@ const EmployeePage = () => {
         </div>
       </div>
       <div className="contentContainer">
-      <div className="greenContainer">
-          <div className="innerContainer">
-            
-            <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
-            <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+        <div className="greenContainer">
+            <div className="innerContainer">
+              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
+              <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
+        <div className="contentContainer">
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>  
+            </div>
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations</button>  
+            </div>
+        </div> 
+        <div className="contentContainer">
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
+            </div>
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  
+            </div>
+        </div>
+        
       
 
       </main>

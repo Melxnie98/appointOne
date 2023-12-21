@@ -46,6 +46,23 @@ const MediationPage = () => {
                 <li>Group/team mediation</li>
                 <li>Community mediation</li>
             </ul>
+
+            <div className="contentContainer">
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations </button>  
+                </div>
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button>  
+                </div>
+            </div> 
+            <div className="contentContainer">
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
+                </div>
+                <div className="innerContainer">
+                    <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  
+                </div>
+            </div>
       </main>
     </div>
   );
