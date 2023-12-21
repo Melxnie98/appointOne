@@ -7,13 +7,6 @@ const ScrollableHeader = ({ title }) => {
   const router = useRouter();
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isSmallScreen, setSmallScreen] = useState(false);
-  // State to manage the dropdown visibility
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
-
-  // Function to toggle the dropdown visibility
-  const toggleDropdown = () => {
-    setDropdownVisible(!isDropdownVisible);
-  };
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -59,7 +52,6 @@ const ScrollableHeader = ({ title }) => {
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/services')}>
                 Services
-               
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/about')}>
                 About 
