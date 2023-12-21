@@ -191,6 +191,7 @@ main {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  margin: 10px;
 }
 
 .round-button:hover {
