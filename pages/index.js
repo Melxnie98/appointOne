@@ -43,12 +43,12 @@ export default function Home() {
         </div>
         </div>
         <div className="greenContainer">
-          <div className="innerContainer">
+          <div className="fiftyContainer">
             <h2>Expertise</h2>
             <p>With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, 
               Claire Hurley brings a wealth of expertise to guide you through career complexities, resolve disputes, and support you on HR related topics.</p>
           </div>
-          <div className="innerContainer">
+          <div className="fiftyContainer">
             <h2>Compassion and Empathy</h2>
             <p>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
           </div>
