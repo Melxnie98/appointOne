@@ -37,7 +37,7 @@ const MediationPage = () => {
         <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
       </div>
       <h2>Available for all mediation needs with particular focus on:</h2>
-     
+      <div>
             <ul>
                 <li>Workplace meditation </li>
                 <li>Family mediation</li>
@@ -46,23 +46,24 @@ const MediationPage = () => {
                 <li>Group/team mediation</li>
                 <li>Community mediation</li>
             </ul>
-
-            <div className="contentContainer">
-                <div className="innerContainer">
-                    <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations </button>  
-                </div>
-                <div className="innerContainer">
-                    <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button>  
-                </div>
-            </div> 
-            <div className="contentContainer">
-                <div className="innerContainer">
-                    <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
-                </div>
-                <div className="innerContainer">
-                    <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  
-                </div>
+      </div>
+        <div className="contentContainer">
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations </button>  
             </div>
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button>  
+            </div>
+        </div> 
+        <div className="contentContainer">
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
+            </div>
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  
+            </div>
+        </div>
+        
       </main>
     </div>
   );
