@@ -79,10 +79,10 @@ main {
 
 /* Media Query - Small Screens */
 @media (max-width: 600px) {
-  /*main{
+  main{
     top: 10px;  Adjust the top position based on your header height 
   }
-  */
+  
 
   .contentContainer,
   .greenContainer,
