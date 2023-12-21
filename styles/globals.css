@@ -30,6 +30,7 @@ main {
 
 /* Full Width Containers */
 .container,
+.greenContainer,
 .lightGreenContainer,
 .contentContainer,
 .overlay,
@@ -47,7 +48,6 @@ main {
 .greenContainer {
   background-color: #6d9340;
   color: #ffffff;
-  flex-direction: col;
 }
 
 .lightGreenContainer {
