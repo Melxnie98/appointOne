@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
         </div>
-        <div className="greenContainer">
+        <div >
           <div className="sixtyFiveContainer">
             <h2>Expertise</h2>
             <p>With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, 
@@ -53,7 +53,7 @@ export default function Home() {
             <p>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
           </div>
         </div>
-        <div className="greenContainer">
+        <div >
           <div className="sixtyFiveContainer">
             <h2>Integrity and Transparency</h2>
             <p>Trust is at the core of all interactions. You can rely on honesty, transparency, and commitment to your best interests. You will be empowered with the knowledge and tools to make informed decisions.</p>
