@@ -84,7 +84,7 @@ export default function Home() {
               <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
             </div>
               
-            </div>
+            
           </div>
         
         </div>
