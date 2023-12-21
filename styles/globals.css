@@ -80,7 +80,7 @@ main {
 /* Media Query - Small Screens */
 @media (max-width: 600px) {
   main{
-    top: 10px;  
+    top: 30px;  
   }
   
 
