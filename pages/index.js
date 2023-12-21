@@ -43,6 +43,7 @@ export default function Home() {
         </div>
         </div>
         <div className="greenContainer">
+        <div className="greenContainer">
           <div className="innerContainer">
             <h2>Expertise</h2>
             <p>With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, 
@@ -64,6 +65,7 @@ export default function Home() {
             <p>My strengths lie in my capacity for empathy  which allows me to create personalized solutions that fit your needs, whether you're at a career crossroads, facing workplace conflicts, or in need of HR guidance.</p>
           </div>
         </div> 
+        </div>
         <div className="contentContainer">
           <div className="fiftyContainerBlackFont">
           <h4 className="greenFont">About Appoint One</h4>
