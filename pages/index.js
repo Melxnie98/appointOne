@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         </div>
         <div className="greenContainer">
-          <div className="lilContainer">
+          <div className="contentContainer">
             <div className="innerContainer">
               <h2>Expertise</h2>
               <p>With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, 
