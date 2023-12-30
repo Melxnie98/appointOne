@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div> 
         </div>
-        <div>
+        
         <div className="contentContainer">
           <div className="fiftyContainer">
             <h4 className="greenFont">About Appoint One</h4>
@@ -86,7 +86,7 @@ export default function Home() {
               <button className="green-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
             </div> 
           </div>
-          </div>
+          
         
         </div>
       </main>
