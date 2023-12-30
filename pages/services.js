@@ -23,7 +23,7 @@ const ServicesPage = () => {
       
       <div className="servicesContainer">
         <div className="overlay">
-            <div className="fiftyContainer">
+            <div className="sixtyFiveContainer">
                 <h1>Unlocking Opportunities</h1>     
                 <h2>Explore the Range of Services at Appoint One</h2>
                 <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. 
