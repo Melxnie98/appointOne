@@ -35,28 +35,22 @@ const ServicesPage = () => {
      
       <div className="contentContainer">
         <div className="innerContainer">
-        <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button> 
+          <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button> 
         </div>
-    </div>
-    <div className="contentContainer">
-          <div className="innerContainer">
-            <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>  
-          </div>
-          <div className="innerContainer">
+        <div className="innerContainer">
+          <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>  
+        </div>
+        <div className="innerContainer">
           <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations</button>  
-          </div>
-        </div> 
-        <div className="contentContainer">
-          <div className="innerContainer">
-          <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
-          </div>
-          <div className="innerContainer">
-          <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  
-          </div>
         </div>
-        
-          
-        <div className="lightGreenContainer">
+        <div className="innerContainer">
+          <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>  
+        </div>
+        <div className="innerContainer">
+          <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>  
+        </div>
+      </div>
+      <div className="lightGreenContainer">
           <div className="innerContainer">
               <p> Questions?</p>
               <h2>Call Now</h2>
