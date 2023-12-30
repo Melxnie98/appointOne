@@ -36,6 +36,7 @@ main {
 .overlay,
 .servicesContainer,
 .cardContainer,
+.lilContainer,
 .headerCardContainer {
   display: flex;
   flex-wrap: wrap;
@@ -85,6 +86,7 @@ main {
   }
 
   .contentContainer,
+  .lilContainer,
   .greenContainer,
   .lightGreenContainer,
   .imgs {
