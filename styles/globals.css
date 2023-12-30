@@ -81,7 +81,7 @@ main {
 /* Media Query - Small Screens */
 @media (max-width: 600px) {
   main{
-    top: 30px;  
+    margin-top: 30px;  
   }
 
   .contentContainer,
