@@ -67,21 +67,20 @@ export default function Home() {
         </div>
         <div>
         <div className="contentContainer">
-          <div className="fiftyContainerBlackFont">
+          <div>
             <h4 className="greenFont">About Appoint One</h4>
-            <h2>Empowering Your Journey with Compassion and Expertise</h2>
-            <p>At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.</p>
+              <h2>Empowering Your Journey with Compassion and Expertise</h2>
+              <p>At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.</p>
 
-            <p>Founded by Claire Hurley, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.</p>
+              <p>Founded by Claire Hurley, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.</p>
 
-            <p>With a strong foundation of compassion, integrity, and empathy, we provide tailored solutions to help you navigate career complexities, resolve workplace challenges, and optimize HR strategies.</p>
+              <p>With a strong foundation of compassion, integrity, and empathy, we provide tailored solutions to help you navigate career complexities, resolve workplace challenges, and optimize HR strategies.</p>
 
-            <p>Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.</p>
-
+              <p>Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.</p>
             </div>
-          <div className="fiftyContainerBlackFont">
+            <div>
               <h3>Schedule A Free Consultation</h3>
-              Email us for more information and one of our counselors will call you to go over our programs.
+              <p>Email us for more information and one of our counselors will call you to go over our programs.</p>
               <div className="contentContainer">
               <button className="green-button" onClick={() => navigateTo('/services')}>Our Services</button>
               <button className="green-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
