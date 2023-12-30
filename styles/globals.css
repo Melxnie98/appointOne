@@ -102,9 +102,7 @@ main {
   .thirtyFiveContainer,
   .fiftyGreenContainer {
     flex: 1;
-    padding: 0px;
     flex-direction: column;
-    margin:0;
     box-sizing: border-box;
   }
 
