@@ -91,11 +91,9 @@ main {
     flex: 1;
     width: 100%;
     padding: 0px;
-    /*top: 0%;*/
     flex-direction: column;
     box-sizing: border-box;
     margin: 0px;
-    
   }
 
   .fiftyContainer,
