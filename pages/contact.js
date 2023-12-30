@@ -38,10 +38,10 @@ const ContactPage = () => {
 
       
       <div className="lightGreenContainer">
-        <div >
+        <div className="fiftyContainer">
           <img className="imgs"src="/images/heron.jpg" alt="Heron"/>
         </div>
-        <div >
+        <div className="fiftyContainer">
           <h2>" As I live each day may it be my goal to encourage one mind and inspire one soul. As I live each day may I do my part to make one difference and touch one heart "</h2>
         </div>
         
