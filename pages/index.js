@@ -22,8 +22,8 @@ export default function Home() {
 
       <main>
         <div className="greenContainer">
-          <img className="fiftyContainer" src="/images/team.png" alt="Team"/>
-          <div className="sixtyFiveContainer">
+          <img className="innerContainer" src="/images/team.png" alt="Team"/>
+          <div className="innerContainer">
             <h1>Empowerment and Resolution with Claire Hurley</h1>
             <p>Welcome to Appoint One founded by Claire Hurley, a seasoned HR Professional, qualified Mediator and qualified Career Guidance Counsellor. The aim of Appoint One is to partner with individuals, families and organizations to empower them to take the next step, that is theirs to take, in the resolution of a conflict, the provision of a harmonious work culture/environment or make career decisions. </p>
             <div className="greenContainer">
