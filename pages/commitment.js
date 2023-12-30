@@ -30,7 +30,7 @@ const CommitmentPage = () => {
       </div>
       <div className="contentContainer">
         <div >
-           <img  src="/images/transformations.png" alt="Team"/>
+           <img className="imgs" src="/images/transformations.png" alt="Team"/>
           </div>
           <div className="innerContainer">
             <h2>Our Commitment To Excellence And Transformation</h2>
