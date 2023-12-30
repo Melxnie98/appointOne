@@ -27,8 +27,8 @@ const AboutPage = () => {
         </div>
       </div>   
       
-      <div class="sixtyFiveContainer">
-        <div className="innerContainer">
+      <div class="contentContainer">
+        <div className="sixtyFiveContainer">
         <h1>Meet Claire Hurley</h1>
           <img className="imgs"src="/images/claire.jpeg" alt="Claire Hurley"/>
         </div>
