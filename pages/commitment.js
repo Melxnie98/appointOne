@@ -29,7 +29,7 @@ const CommitmentPage = () => {
         </div>
       </div>
       <div className="contentContainer">
-        <div >
+        <div className="innerContainer">
            <img className="imgs" src="/images/transformations.png" alt="Team"/>
           </div>
           <div className="innerContainer">
