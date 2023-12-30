@@ -163,7 +163,7 @@ main {
 
 .innerContainer {
   flex: 1;
-  width: 30%;
+  width: 80%;
   padding: 2%;
   top: 0%;
   display: flex;
