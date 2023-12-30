@@ -54,7 +54,7 @@ export default function Home() {
               <p>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
             </div>
           </div>
-          <div className="lilContainer">
+          <div className="contentContainer">
             <div className="innerContainer">
               <h2>Integrity and Transparency</h2>
               <p>Trust is at the core of all interactions. You can rely on honesty, transparency, and commitment to your best interests. You will be empowered with the knowledge and tools to make informed decisions.</p>
