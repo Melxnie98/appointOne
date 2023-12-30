@@ -38,7 +38,6 @@ const CommitmentPage = () => {
             <p>Your success is our ultimate reward, and we are committed to being your dedicated partner on your journey to empowerment and resolution. With Appoint One, you’re not just a client; you’re a valued part of our community, and we look forward to embarking on this transformative journey with you.</p>
           </div>
         </div>
-
       </main>
     
     </div>
