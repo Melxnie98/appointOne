@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <div className={styles.across}  >
           <h1>Book an appointment</h1>
-          <button className={`${styles.nav} ${styles.round-button}`} onClick={() => navigateTo('/contact')}>contact</button>
+          <button className={styles.nav} onClick={() => navigateTo('/contact')}>contact</button>
          
         </div>
         <div className={styles.across} >
