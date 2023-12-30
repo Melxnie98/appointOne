@@ -65,6 +65,7 @@ export default function Home() {
             </div>
           </div> 
         </div>
+        <br></br>
         
         <div className="contentContainer">
           <div className="fiftyContainer">
