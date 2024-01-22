@@ -26,8 +26,16 @@ const ServicesPage = () => {
 
       <main>
         <div className="servicesContainer">
-          {/* ... Your existing content */}
+          <div className="overlay">
+            <div className="sixtyFiveContainer">
+              <h1>Unlocking Opportunities</h1>
+              <h2>Explore the Range of Services at Appoint One</h2>
+              <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p>
+              <button className="green-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+            </div>
+          </div>
         </div>
+
         <div className="contentContainer">
           <div className="tab-container">
             <div
@@ -63,7 +71,36 @@ const ServicesPage = () => {
           </div>
         </div>
 
-        {/* ... Your remaining content */}
+        <div className="contentContainer">
+          <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support</button>
+          </div>
+          <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>
+          </div>
+          <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations</button>
+          </div>
+          <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>
+          </div>
+          <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>
+          </div>
+        </div>
+
+        <div className="lightGreenContainer">
+          <div className="innerContainer">
+            <p> Questions?</p>
+            <h2>Call Now</h2>
+            <p>Ready to take the next step? Call now and let’s embark on your journey to empowerment and resolution.</p>
+            <h2>+353 (0)83 4400999</h2>
+            <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+          </div>
+          <div className="innerContainer">
+            <img className="imgs" src="/images/AONEpc.png" alt="Team" />
+          </div>
+        </div>
       </main>
     </div>
   );
