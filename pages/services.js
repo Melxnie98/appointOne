@@ -41,33 +41,72 @@ const ServicesPage = () => {
             className={`tab ${activeTab === 'tab1' ? 'active' : ''}`}
             onClick={() => showTab('tab1')}
           >
-            Tab 1
+            Employee Support
           </div>
           <div
             className={`tab ${activeTab === 'tab2' ? 'active' : ''}`}
             onClick={() => showTab('tab2')}
           >
-            Tab 2
+           Mediation
           </div>
           <div
             className={`tab ${activeTab === 'tab3' ? 'active' : ''}`}
             onClick={() => showTab('tab3')}
           >
-            Tab 3
+            Workplace Relations
+          </div>
+          <div
+            className={`tab ${activeTab === 'tab4' ? 'active' : ''}`}
+            onClick={() => showTab('tab4')}
+          >
+            Career Councelling
+          </div>
+          <div
+            className={`tab ${activeTab === 'tab5' ? 'active' : ''}`}
+            onClick={() => showTab('tab5')}
+          >
+            Facillitation
           </div>
         </div>
 
         <div className="contentContainer">
           <div className="tab-content" id="tab1" style={{ display: activeTab === 'tab1' ? 'block' : 'none' }}>
-            <p>Content for Tab 1 goes here.</p>
+          <div className="innerContainer">
+              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
+              <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+            </div>
           </div>
 
           <div className="tab-content" id="tab2" style={{ display: activeTab === 'tab2' ? 'block' : 'none' }}>
-            <p>Content for Tab 2 goes here.</p>
+            <div className="lightGreenContainer">
+             
+              <p>Mediation is defined by the Meditation Act 2017 as ‘A confidential, facilitative and voluntary process in which parties to a dispute, with the assistance of a mediator , attempt to reach a mutually acceptable agreement to resolve the dispute’</p>
+              <p>Claire is an accredited mediator with the Mediators Institute Ireland. The practice of Appoint one is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
+              <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
+            </div>
+      <div className="contentContainer">
+        <h2>Available for all mediation needs with particular focus on:</h2>
+      </div>
+      <div>
+            <ul>
+                <li>Workplace meditation </li>
+                <li>Family mediation</li>
+                <li>Separating/Divorce Couples mediation</li>
+                <li>Child Inclusive Mediation</li>
+                <li>Group/team mediation</li>
+                <li>Community mediation</li>
+            </ul>
+      </div>
           </div>
 
           <div className="tab-content" id="tab3" style={{ display: activeTab === 'tab3' ? 'block' : 'none' }}>
             <p>Content for Tab 3 goes here.</p>
+          </div>
+          <div className="tab-content" id="tab4" style={{ display: activeTab === 'tab4' ? 'block' : 'none' }}>
+            <p>Content for Tab 4 goes here.</p>
+          </div>
+          <div className="tab-content" id="tab5" style={{ display: activeTab === 'tab5' ? 'block' : 'none' }}>
+            <p>Content for Tab 5 goes here.</p>
           </div>
         </div>
 
