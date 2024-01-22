@@ -84,26 +84,86 @@ const ServicesPage = () => {
               <p>Claire is an accredited mediator with the Mediators Institute Ireland. The practice of Appoint one is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
               <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
             </div>
-      <div className="contentContainer">
-        <h2>Available for all mediation needs with particular focus on:</h2>
-      </div>
-      <div>
-            <ul>
-                <li>Workplace meditation </li>
-                <li>Family mediation</li>
-                <li>Separating/Divorce Couples mediation</li>
-                <li>Child Inclusive Mediation</li>
-                <li>Group/team mediation</li>
-                <li>Community mediation</li>
-            </ul>
-      </div>
+            <div className="contentContainer">
+              <h2>Available for all mediation needs with particular focus on:</h2>
+            </div>
+            <div>
+                  <ul>
+                      <li>Workplace meditation </li>
+                      <li>Family mediation</li>
+                      <li>Separating/Divorce Couples mediation</li>
+                      <li>Child Inclusive Mediation</li>
+                      <li>Group/team mediation</li>
+                      <li>Community mediation</li>
+                  </ul>
+            </div>
+            <div className="innerContainer">
+              <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>
+            </div>
           </div>
 
           <div className="tab-content" id="tab3" style={{ display: activeTab === 'tab3' ? 'block' : 'none' }}>
             <p>Content for Tab 3 goes here.</p>
-          </div>
+            Appoint One provides guidance and expertise to facilitate positive interactions and effective communication within the workplace. The aim is to create a harmonious work environment by helping resolve conflicts, address grievances, and promote a culture of mutual respect and understanding. Support includes advising on HR policies, conducting conflict resolution workshops, and offering assistance in navigating employment-related issues, ultimately fostering a more collaborative and productive workplace.
+            HR Consultation and Delivery on ……..
+            <ul>
+                <li>Workplace investigations </li>
+                <li>All Employee Relations issues</li>
+                <li>Conflict Management</li>
+                <li>Management of Disciplinary and Grievance Issues</li>
+                <li>Performance Management</li>
+                <li>Employee Development</li>
+
+                <li>Employee Retention </li>
+                <li>Organization Review and Restructuring</li>
+                <li>Redundancy and Redeployment</li>
+                <li>Outplacement Services</li>
+                <li>Policy and Procedures reviewt</li>
+                <li>Contracts of employment</li>
+
+                <li>Succession Planning </li>
+                <li>Talent Managementg</li>
+                <li>Team facilitation</li>
+                <li>Workplace Culture & Wellbeing</li>
+                
+            </ul>
+            
+            <div className="innerContainer">
+                <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>  
+            </div>
+         
+        </div>
+
+        
           <div className="tab-content" id="tab4" style={{ display: activeTab === 'tab4' ? 'block' : 'none' }}>
-            <p>Content for Tab 4 goes here.</p>
+          <div className="contentContainer">
+        <p>Are you at a crossroads in your career, seeking to make a change or advance to new heights? Look no further! Appoint One adult career guidance services are designed to empower individuals like you to navigate the complexities of today's job market with confidence. I provide personalized and expert guidance tailored to your unique strengths, interests, and aspirations. Whether you're a seasoned professional looking for a career pivot or a recent graduate taking your first steps into the workforce, I will empower you to chart a clear and rewarding path to success. With guidance, you can discover new opportunities, refine your skills, and make informed decisions that will propel you towards a fulfilling and prosperous career.</p>
+        <div className="innerContainer">
+            <ul>
+                <li>Career Conversations with holistic view of current life circumstances</li>
+                <li>Career Exploration</li>
+                <li>Job search strategy</li>
+                <li>Job application to Interview Preparation Package</li>
+                <li>Return to work after prolonged absence</li>
+                <li>Interview Preparation</li>
+                <li>CV development and management</li>
+            </ul>
+        </div>
+            <div className="innerContainer">
+                <ul>
+                    <li>Life/Career after retirement</li>
+                    <li>Adaptation to changing careers</li>
+                    <li>Redundancy/job loss – what next ?</li>
+                    <li>Job advancement – how to secure it?</li>
+                    <li>Graduate Options</li>
+                    <li>Leaving Certificate options</li>
+                    <li>Outplacement Support</li>
+                </ul>
+            </div>
+        </div>
+        <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>
+          </div>
           </div>
           <div className="tab-content" id="tab5" style={{ display: activeTab === 'tab5' ? 'block' : 'none' }}>
             <p>Content for Tab 5 goes here.</p>
