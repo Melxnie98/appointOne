@@ -73,7 +73,7 @@ const ServicesPage = () => {
           <div className="tab-content" id="tab1" style={{ display: activeTab === 'tab1' ? 'block' : 'none' }}>
           <div className="innerContainer">
               <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
-              <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
+              <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support - More Information</button>
             </div>
           </div>
           <div className="tab-content" id="tab2" style={{ display: activeTab === 'tab2' ? 'block' : 'none' }}>
