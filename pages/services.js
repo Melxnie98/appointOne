@@ -32,6 +32,28 @@ const ServicesPage = () => {
             </div>
         </div>
       </div>
+      <div className="contentContainer">
+      <div class="tab-container">
+    <button class="tab" onclick="openTab('tab1')">Tab 1</button>
+    <button class="tab" onclick="openTab('tab2')">Tab 2</button>
+    <button class="tab" onclick="openTab('tab3')">Tab 3</button>
+
+    <div id="tab1" class="tab-content">
+      <h2>Tab 1 Content</h2>
+      <p>This is the content for Tab 1.</p>
+    </div>
+
+    <div id="tab2" class="tab-content">
+      <h2>Tab 2 Content</h2>
+      <p>This is the content for Tab 2.</p>
+    </div>
+
+    <div id="tab3" class="tab-content">
+      <h2>Tab 3 Content</h2>
+      <p>This is the content for Tab 3.</p>
+    </div>
+  </div>
+  </div>
      
       <div className="contentContainer">
         <div className="innerContainer">
