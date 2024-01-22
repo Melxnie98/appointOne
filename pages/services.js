@@ -160,13 +160,26 @@ const ServicesPage = () => {
                     <li>Outplacement Support</li>
                 </ul>
             </div>
+            <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>
+          </div>
         </div>
         <div className="innerContainer">
             <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling</button>
           </div>
           </div>
           <div className="tab-content" id="tab5" style={{ display: activeTab === 'tab5' ? 'block' : 'none' }}>
-            <p>Content for Tab 5 goes here.</p>
+          <h2>Facilitation</h2>
+            <p>Through my experience, I’ve orchestrated highly effective gatherings that harmonize education, state agencies, and industry on a large scale. My track record includes skillfully managing these meetings, where I’ve consistently demonstrated a unique talent for facilitating dialogue that extracts the maximum value from each interaction. I have a proven ability to assemble disparate groups and individuals who were previously unacquainted and transform them into cohesive and productive working teams. If you’re seeking facilitation services that can unite diverse stakeholders and foster collaborative, successful outcomes, I have the expertise you need. </p>
+            <ul>
+                <li>Facilitate meetings </li>
+                <li>Generate attendees for meetings and events</li>
+                <li>Facilitate workshops</li>
+                <li>Facilitate network events</li>
+            </ul>
+            <div className="innerContainer">
+            <button className="round-button" onClick={() => navigateTo('/facilitation')}>Facilitation</button>
+          </div>
           </div>
         </div>
 
