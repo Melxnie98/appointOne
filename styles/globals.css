@@ -17,6 +17,15 @@ body {
   margin: 0;
 }
 
+.tab-section {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px; /* Add margin-top for spacing */
+}
+
 .tab-container {
   display: flex;
   justify-content: space-around;
@@ -24,7 +33,6 @@ body {
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 8px;
-  margin-top: 20px;
 }
 
 .tab {
@@ -46,11 +54,6 @@ body {
   background-color: #007bff;
   color: #fff;
 }
-
-.contentContainer {
-  margin-top: 20px;
-}
-
 .tab-content {
   display: none;
   padding: 20px;
