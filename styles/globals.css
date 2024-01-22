@@ -19,25 +19,44 @@ body {
 
 .tab-container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 .tab {
-  padding: 10px;
+  padding: 10px 20px;
   cursor: pointer;
-  border: 1px solid #ccc;
-  border-bottom: none;
-  background-color: #f2f2f2;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .tab:hover {
   background-color: #ddd;
+  color: #555;
+}
+
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contentContainer {
+  margin-top: 20px;
 }
 
 .tab-content {
   display: none;
   padding: 20px;
   border: 1px solid #ccc;
-  border-top: none;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 /* Main Container Styles */
