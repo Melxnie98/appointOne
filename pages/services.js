@@ -36,28 +36,28 @@ const ServicesPage = () => {
           </div>
         </div>
 
-        <div className="contentContainer">
-          <div className="tab-container">
-            <div
-              className={`tab ${activeTab === 'tab1' ? 'active' : ''}`}
-              onClick={() => showTab('tab1')}
-            >
-              Tab 1
-            </div>
-            <div
-              className={`tab ${activeTab === 'tab2' ? 'active' : ''}`}
-              onClick={() => showTab('tab2')}
-            >
-              Tab 2
-            </div>
-            <div
-              className={`tab ${activeTab === 'tab3' ? 'active' : ''}`}
-              onClick={() => showTab('tab3')}
-            >
-              Tab 3
-            </div>
+        <div className="tab-container">
+          <div
+            className={`tab ${activeTab === 'tab1' ? 'active' : ''}`}
+            onClick={() => showTab('tab1')}
+          >
+            Tab 1
           </div>
+          <div
+            className={`tab ${activeTab === 'tab2' ? 'active' : ''}`}
+            onClick={() => showTab('tab2')}
+          >
+            Tab 2
+          </div>
+          <div
+            className={`tab ${activeTab === 'tab3' ? 'active' : ''}`}
+            onClick={() => showTab('tab3')}
+          >
+            Tab 3
+          </div>
+        </div>
 
+        <div className="contentContainer">
           <div className="tab-content" id="tab1" style={{ display: activeTab === 'tab1' ? 'block' : 'none' }}>
             <p>Content for Tab 1 goes here.</p>
           </div>
@@ -107,3 +107,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+
