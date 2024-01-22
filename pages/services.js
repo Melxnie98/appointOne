@@ -76,10 +76,8 @@ const ServicesPage = () => {
               <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
             </div>
           </div>
-
           <div className="tab-content" id="tab2" style={{ display: activeTab === 'tab2' ? 'block' : 'none' }}>
             <div className="lightGreenContainer">
-             
               <p>Mediation is defined by the Meditation Act 2017 as ‘A confidential, facilitative and voluntary process in which parties to a dispute, with the assistance of a mediator , attempt to reach a mutually acceptable agreement to resolve the dispute’</p>
               <p>Claire is an accredited mediator with the Mediators Institute Ireland. The practice of Appoint one is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
               <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
@@ -103,7 +101,6 @@ const ServicesPage = () => {
           </div>
 
           <div className="tab-content" id="tab3" style={{ display: activeTab === 'tab3' ? 'block' : 'none' }}>
-            <p>Content for Tab 3 goes here.</p>
             Appoint One provides guidance and expertise to facilitate positive interactions and effective communication within the workplace. The aim is to create a harmonious work environment by helping resolve conflicts, address grievances, and promote a culture of mutual respect and understanding. Support includes advising on HR policies, conducting conflict resolution workshops, and offering assistance in navigating employment-related issues, ultimately fostering a more collaborative and productive workplace.
             HR Consultation and Delivery on ……..
             <ul>
@@ -127,11 +124,9 @@ const ServicesPage = () => {
                 <li>Workplace Culture & Wellbeing</li>
                 
             </ul>
-            
             <div className="innerContainer">
                 <button className="round-button" onClick={() => navigateTo('/mediation')}>Mediation</button>  
             </div>
-         
         </div>
 
         
