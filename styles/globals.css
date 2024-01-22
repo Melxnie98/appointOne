@@ -19,23 +19,25 @@ body {
 
 .tab-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
 }
 
 .tab {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 10px;
   cursor: pointer;
-  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #f2f2f2;
+}
+
+.tab:hover {
+  background-color: #ddd;
 }
 
 .tab-content {
   display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 /* Main Container Styles */
