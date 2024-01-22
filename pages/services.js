@@ -11,6 +11,14 @@ const ServicesPage = () => {
   const navigateTo = (path) => {
     router.push(path);
   }
+  function openTab(tabName) {
+    const tabs = document.getElementsByClassName('tab-content');
+    for (const tab of tabs) {
+      tab.style.display = 'none';
+    }
+  
+    document.getElementById(tabName).style.display = 'block';
+  }
   return (
     <div className="container">
       <Head>
