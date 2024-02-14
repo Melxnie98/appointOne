@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Appoint One</title>
+        <title>beep boop site</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
@@ -67,19 +67,17 @@ export default function Home() {
         <div>
         <div className="contentContainer">
           <div className="lilContainer">
-            <h4 className="greenFont">About Appoint One</h4>
-            <h2>Empowering Your Journey with Compassion and Expertise</h2>
-            <p>At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.</p>
+            <h4 className="greenFont">About beep boop</h4>
+            <h2>beep boop beep boop beep boop</h2>
+            <p>beep boop beep boop beep boopbeep boop beep boop beep boop</p>
 
-            <p>Founded by Claire Hurley, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.</p>
+            <p>beep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boop</p>
 
-            <p>With a strong foundation of compassion, integrity, and empathy, we provide tailored solutions to help you navigate career complexities, resolve workplace challenges, and optimize HR strategies.</p>
-
-            <p>Our commitment to your success is unwavering, and we’re here to guide you on a transformative journey towards empowerment and resolution.</p>
+            <p>beep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boop</p>
           </div>
             <div className="lilContainer">
-              <h3>Schedule A Free Consultation</h3>
-              <p>Email us for more information and one of our counselors will call you to go over our programs.</p>
+              <h3>boop</h3>
+              <p>beep boop beep boop beep boop.</p>
               <div className="contentContainer">
               <button className="green-button" onClick={() => navigateTo('/services')}>Our Services</button>
               <button className="green-button" onClick={() => navigateTo('/contact')}>Contact Us</button>

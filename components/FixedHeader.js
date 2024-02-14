@@ -8,7 +8,7 @@ const FixedHeader = ({ title }) => {
     <header className={styles.fixedHeader} >
         
        <div className={styles.navigation}>
-        <a href="tel:+353834400999">
+        <a href="tel:+353831381137">
           <img  src="/logos/phone.png" alt="Phone" className={styles.phone}/>
         </a>
         <img src="/logos/facebookLogo.png" alt="Facebook"  className={`${styles.navItem} ${styles.icons}`}/>
