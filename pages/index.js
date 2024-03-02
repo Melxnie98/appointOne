@@ -35,10 +35,10 @@ export default function Home() {
         <div className="cardContainer">
           <div className="overlay">
            <div className="sixtyFiveContainer">
-            <h1>Why Choose Appoint One</h1>
+            <h1>Why Choose COMPANY NAME</h1>
           </div>
           <div className="sixtyFiveContainer">
-           <p>Choose Appoint One for a unique blend of compassion, integrity, and expertise. This is a values  driven organization where respect for the individual and working with discretion, empathy and integrity is foremost.  An authentic empathetic approach ensures personalized guidance for career transitions, conflict resolution, and HR strategy refinement and implementation. </p>
+           <p>Choose COMPANY NAME for a unique blend of compassion, integrity, and expertise. This is a values  driven organization where respect for the individual and working with discretion, empathy and integrity is foremost.  An authentic empathetic approach ensures personalized guidance for career transitions, conflict resolution, and HR strategy refinement and implementation. </p>
           </div>
         </div>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className="innerContainer">
               <h2>Compassion and Empathy</h2>
-              <p>Claire prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
+              <p>FOUNDER prioritizes understanding your unique aspirations and challenges, offering unwavering support built on kindness and empathy. </p>
             </div>
           </div>
           <div className="contentContainer">
