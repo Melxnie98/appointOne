@@ -15,7 +15,7 @@ const ContactPage = () => {
   return (
     <div className="container">
       <Head>
-        <title>Contact </title>
+        <title>Contact - Appoint One</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
@@ -42,7 +42,7 @@ const ContactPage = () => {
           <img className="imgs"src="/images/heron.jpg" alt="Heron"/>
         </div>
         <div className="fiftyContainer">
-          <h2> this is a lovely heron with a handsome little heron quiff</h2>
+          <h2>" As I live each day may it be my goal to encourage one mind and inspire one soul. As I live each day may I do my part to make one difference and touch one heart "</h2>
         </div>
         
       </div>
