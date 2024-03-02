@@ -22,8 +22,8 @@ export default function Footer() {
         </div>
         <div className={styles.across} >
           <h1>Contact</h1>
-          <p>beepboop #</p>
-          <p>beepboop email</p>
+          <p>+353 (0)83 4400999</p>
+          <p>claire@appointone.ie</p>
         </div>
         
       </footer>
