@@ -30,7 +30,7 @@ const ServicesPage = () => {
             <div className="sixtyFiveContainer">
               <h1>Unlocking Opportunities</h1>
               <h2>Explore the Range of Services at Appoint One</h2>
-              <p>Welcome to Appoint One’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p>
+              <p>Welcome to COMPANY NAME’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p>
               <button className="green-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
             </div>
           </div>
@@ -73,7 +73,7 @@ const ServicesPage = () => {
           <div className="tab-content" id="tab1" style={{ display: activeTab === 'tab1' ? 'block' : 'none' }}>
           <div className="innerContainer">
             <h2>Employee Support</h2>
-              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
+              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  FOUNDER will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach FOUNDER will guide you to clarity of your situation.</p>
               <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support - More Information</button>
             </div>
           </div>
@@ -81,7 +81,7 @@ const ServicesPage = () => {
             <div>
             <h2>Mediation</h2>
               <p>Mediation is defined by the Meditation Act 2017 as ‘A confidential, facilitative and voluntary process in which parties to a dispute, with the assistance of a mediator , attempt to reach a mutually acceptable agreement to resolve the dispute’</p>
-              <p>Claire is an accredited mediator with the Mediators Institute Ireland. The practice of Appoint one is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
+              <p>FOUNDER is an accredited mediator with the Mediators Institute Ireland. The practice of COMPANY NAME is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
               <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
             </div>
             <div className="innerContainer">

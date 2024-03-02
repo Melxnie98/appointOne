@@ -32,7 +32,7 @@ const EmployeePage = () => {
       <div className="contentContainer">
         <div className="greenContainer">
             <div className="innerContainer">
-              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
+              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  FOUNDER will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach FOUNDER will guide you to clarity of your situation.</p>
               <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
             </div>
           </div>

@@ -24,8 +24,8 @@ export default function Home() {
         <div className="greenContainer">
           <img className="innerContainer" src="/images/team.png" alt="Team"/>
           <div className="innerContainer">
-            <h1>Empowerment and Resolution with Claire Hurley</h1>
-            <p>Welcome to Appoint One founded by Claire Hurley, a seasoned HR Professional, qualified Mediator and qualified Career Guidance Counsellor. The aim of Appoint One is to partner with individuals, families and organizations to empower them to take the next step, that is theirs to take, in the resolution of a conflict, the provision of a harmonious work culture/environment or make career decisions. </p>
+            <h1>Empowerment and Resolution with FOUNDER NAME</h1>
+            <p>Welcome to COMPANY NAME founded by FOUNDER NAME, a seasoned HR Professional, qualified Mediator and qualified Career Guidance Counsellor. The aim of COMPANY NAME is to partner with individuals, families and organizations to empower them to take the next step, that is theirs to take, in the resolution of a conflict, the provision of a harmonious work culture/environment or make career decisions. </p>
             <div className="greenContainer">
               <button className="round-button" onClick={() => navigateTo('/services')}>Our Services</button>
               <button className="round-button" onClick={() => navigateTo('/contact')}>Contact Us</button>
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="innerContainer">
               <h2>Expertise</h2>
               <p>With over 30 years Human Resources Management  experience , coupled with qualifications in Career Guidance Counselling and Mediation, 
-                Claire Hurley brings a wealth of expertise to guide you through career complexities, resolve disputes, and support you on HR related topics.</p>
+                FOUNDER NAME brings a wealth of expertise to guide you through career complexities, resolve disputes, and support you on HR related topics.</p>
             </div>
             <div className="innerContainer">
               <h2>Compassion and Empathy</h2>
@@ -68,11 +68,11 @@ export default function Home() {
         <div>
         <div className="contentContainer">
           <div className="lilContainer">
-            <h4 className="greenFont">About Appoint One</h4>
+            <h4 className="greenFont">About The Company</h4>
             <h2>Empowering Your Journey with Compassion and Expertise</h2>
-            <p>At Appoint One, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.</p>
+            <p>At COMPANY NAME, we’re more than just a consultancy; we’re your dedicated partner in personal and professional growth.</p>
 
-            <p>Founded by Claire Hurley, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.</p>
+            <p>Founded by FOUNDER NAME, a seasoned expert with over 30 years of experience in Human Resources, Careers Coaching, and Mediation, our mission is to empower individuals like you.</p>
 
             <p>With a strong foundation of compassion, integrity, and empathy, we provide tailored solutions to help you navigate career complexities, resolve workplace challenges, and optimize HR strategies.</p>
 
