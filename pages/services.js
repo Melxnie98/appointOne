@@ -72,15 +72,15 @@ const ServicesPage = () => {
         <div className="contentContainer">
           <div className="tab-content" id="tab1" style={{ display: activeTab === 'tab1' ? 'block' : 'none' }}>
           <div className="innerContainer">
-            <h2>boop</h2>
-              <p>beep boop beep boop beep boop</p>
-              <button className="round-button" onClick={() => navigateTo('/employeeSupport')}> More Information</button>
+              <p>Are you an employee with a work place issue and do not know where to turn or what to do next?  Claire will work with you to understand what is happening for you?  With empathy and understanding she will guide you to see all angles to any workplace issue or stress and advice on a course of action with your best interests at the fore.  With a solution focused mindset, HR expertise and a common sense practical approach Claire will guide you to clarity of your situation.</p>
+              <button className="round-button" onClick={() => navigateTo('/employeeSupport')}>Employee Support - More Information</button>
             </div>
           </div>
           <div className="tab-content" id="tab2" style={{ display: activeTab === 'tab2' ? 'block' : 'none' }}>
             <div>
-            <h2>beep</h2>
-              <p>beep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boop</p>
+              <p>Mediation is defined by the Meditation Act 2017 as ‘A confidential, facilitative and voluntary process in which parties to a dispute, with the assistance of a mediator , attempt to reach a mutually acceptable agreement to resolve the dispute’</p>
+              <p>Claire is an accredited mediator with the Mediators Institute Ireland. The practice of Appoint one is bound by the Mediation Act 2017 and the Mediators Institute Ireland Code of Practice.</p>
+              <p>The aim of mediation is to assist the client and /or parties to prevent or resolve a broad range of disputes or conflicts within a variety of settings and to facilitate improvement to future relationships.</p>
             </div>
             <div className="innerContainer">
               <button className="round-button" onClick={() => navigateTo('/mediation')}> More Information</button>
@@ -88,8 +88,7 @@ const ServicesPage = () => {
           </div>
 
           <div className="tab-content" id="tab3" style={{ display: activeTab === 'tab3' ? 'block' : 'none' }}>
-          <h2>beepboop</h2>
-          beep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boop
+            Appoint One provides guidance and expertise to facilitate positive interactions and effective communication within the workplace. The aim is to create a harmonious work environment by helping resolve conflicts, address grievances, and promote a culture of mutual respect and understanding. Support includes advising on HR policies, conducting conflict resolution workshops, and offering assistance in navigating employment-related issues, ultimately fostering a more collaborative and productive workplace.
             
             <div className="innerContainer">
                 <button className="round-button" onClick={() => navigateTo('/workplace')}>More Information</button>  
@@ -99,8 +98,7 @@ const ServicesPage = () => {
         
           <div className="tab-content" id="tab4" style={{ display: activeTab === 'tab4' ? 'block' : 'none' }}>
           <div className="contentContainer">
-          <h2>boopbeep</h2>
-        <p>beep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boopbeep boop beep boop beep boop</p>
+        <p>Are you at a crossroads in your career, seeking to make a change or advance to new heights? Look no further! Appoint One adult career guidance services are designed to empower individuals like you to navigate the complexities of today's job market with confidence. I provide personalized and expert guidance tailored to your unique strengths, interests, and aspirations. Whether you're a seasoned professional looking for a career pivot or a recent graduate taking your first steps into the workforce, I will empower you to chart a clear and rewarding path to success. With guidance, you can discover new opportunities, refine your skills, and make informed decisions that will propel you towards a fulfilling and prosperous career.</p>
         
             <div className="innerContainer">
             <button className="round-button" onClick={() => navigateTo('/councelling')}>More Information</button>
