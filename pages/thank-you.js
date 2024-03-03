@@ -26,6 +26,7 @@ const ThanksPage = () => {
                     <h1>Thanks for Getting in touch</h1>     
                     <h2>We will reach out to you soon</h2>
                     <button className="green-button" onClick={() => navigateTo('/index')}>Continue browsing</button>
+                    
                 </div>
             </div>
         </div>
