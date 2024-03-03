@@ -1,15 +1,17 @@
-import React from 'react';
-import Footer from '@components/Footer'
 import Head from 'next/head'
+import FixedHeader from '@components/FixedHeader'
+import Footer from '@components/Footer'
+import React from 'react';
 import { useRouter } from 'next/router';
 import ScrollableHeader from '@components/ScrollableHeader';
 
 
 const ThanksPage = () => {
-    const router = useRouter();
-    const navigateTo = (path) => {
-      router.push(path);
-    }
+  const router = useRouter();
+  
+  const navigateTo = (path) => {
+    router.push(path);
+  }
 
   return (
     <div className="container">
