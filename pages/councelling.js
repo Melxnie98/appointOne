@@ -14,7 +14,7 @@ const councellingPage = () => {
   return (
     <div className="container">
       <Head>
-        <title>Carreer Councelling - Appoint One</title>
+        <title>Carreer Councelling - COMPANY NAME</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>

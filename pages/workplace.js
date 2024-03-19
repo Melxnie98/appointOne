@@ -14,7 +14,7 @@ const workplacePage = () => {
   return (
     <div className="container">
       <Head>
-        <title>Workplace Relations - Appoint One</title>
+        <title>Workplace Relations - COMPANY NAME</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>

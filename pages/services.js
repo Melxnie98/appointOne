@@ -19,7 +19,7 @@ const ServicesPage = () => {
   return (
     <div className="container">
       <Head>
-        <title>Services - Appoint One</title>
+        <title>Services - COMPANY NAME</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
@@ -29,7 +29,7 @@ const ServicesPage = () => {
           <div className="overlay">
             <div className="sixtyFiveContainer">
               <h1>Unlocking Opportunities</h1>
-              <h2>Explore the Range of Services at Appoint One</h2>
+              <h2>Explore the Range of Services at COMPANY NAME</h2>
               <p>Welcome to COMPANY NAME’s service page, where we invite you to delve into a world of possibilities and solutions. Our commitment to excellence and transformation is reflected in the comprehensive array of services we offer.</p>
               <button className="green-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
             </div>
@@ -91,7 +91,7 @@ const ServicesPage = () => {
 
           <div className="tab-content" id="tab3" style={{ display: activeTab === 'tab3' ? 'block' : 'none' }}>
           <h2>Workplace Relations</h2>
-            Appoint One provides guidance and expertise to facilitate positive interactions and effective communication within the workplace. The aim is to create a harmonious work environment by helping resolve conflicts, address grievances, and promote a culture of mutual respect and understanding. Support includes advising on HR policies, conducting conflict resolution workshops, and offering assistance in navigating employment-related issues, ultimately fostering a more collaborative and productive workplace.
+          COMPANY NAME provides guidance and expertise to facilitate positive interactions and effective communication within the workplace. The aim is to create a harmonious work environment by helping resolve conflicts, address grievances, and promote a culture of mutual respect and understanding. Support includes advising on HR policies, conducting conflict resolution workshops, and offering assistance in navigating employment-related issues, ultimately fostering a more collaborative and productive workplace.
             
             <div className="innerContainer">
                 <button className="round-button" onClick={() => navigateTo('/workplace')}>Workplace Relations - More Information</button>  
@@ -102,7 +102,7 @@ const ServicesPage = () => {
           <div className="tab-content" id="tab4" style={{ display: activeTab === 'tab4' ? 'block' : 'none' }}>
           <div className="contentContainer">
           <h2>Career Councelling</h2>
-        <p>Are you at a crossroads in your career, seeking to make a change or advance to new heights? Look no further! Appoint One adult career guidance services are designed to empower individuals like you to navigate the complexities of today's job market with confidence. I provide personalized and expert guidance tailored to your unique strengths, interests, and aspirations. Whether you're a seasoned professional looking for a career pivot or a recent graduate taking your first steps into the workforce, I will empower you to chart a clear and rewarding path to success. With guidance, you can discover new opportunities, refine your skills, and make informed decisions that will propel you towards a fulfilling and prosperous career.</p>
+        <p>Are you at a crossroads in your career, seeking to make a change or advance to new heights? Look no further! COMPANY NAME adult career guidance services are designed to empower individuals like you to navigate the complexities of today's job market with confidence. I provide personalized and expert guidance tailored to your unique strengths, interests, and aspirations. Whether you're a seasoned professional looking for a career pivot or a recent graduate taking your first steps into the workforce, I will empower you to chart a clear and rewarding path to success. With guidance, you can discover new opportunities, refine your skills, and make informed decisions that will propel you towards a fulfilling and prosperous career.</p>
         
             <div className="innerContainer">
             <button className="round-button" onClick={() => navigateTo('/councelling')}>Career Councelling - More Information</button>
