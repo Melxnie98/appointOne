@@ -125,7 +125,7 @@ const ServicesPage = () => {
             <p> Questions?</p>
             <h2>Call Now</h2>
             <p>Ready to take the next step? Call now and let’s embark on your journey to empowerment and resolution.</p>
-            <h2>+353 (0)83 4400999</h2>
+            <h2>+353 (0)83 0000000</h2>
             <button className="round-button" onClick={() => navigateTo('/contact')}>Book an Appointment</button>
           </div>
           <div className="innerContainer">
